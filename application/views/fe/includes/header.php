@@ -148,7 +148,7 @@ jQuery("#layerslider").layerSlider({
 <header class="header2 sticky">
 	<div class="container">
 		<div class="logo">
-			<a href="#" title=""><img src="<?php echo base_url();?>assets/images/logo.png" alt="Logo" /><h1><i>T</i>pa</h1></a>
+			<a href="#" title=""><img src="<?php echo base_url();?>assets/images/tpalogo.png" width="70px" alt="Logo" /><h1><i></i>TPA</h1></a>
 		</div><!-- Logo -->
 		<a class="header-btn" href="#" title="">DONATE NOW</a>
 		<nav class="menu">
