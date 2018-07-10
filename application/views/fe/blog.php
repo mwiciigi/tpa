@@ -1,6 +1,8 @@
+
 <div class="top-image">
 	<img src="<?php echo base_url();?>assets/images/single-page-top3.jpg" alt="" />
 </div><!-- Page Top Image -->
+
 
 <section class="inner-page">
 	<div class="container">
@@ -177,3 +179,4 @@
 	</div>
 </section>
 </div>
+
