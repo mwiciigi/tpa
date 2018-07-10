@@ -11,4 +11,14 @@ class Home extends CI_Controller {
 		$data['main_content'] = 'fe/blog';
 		$this->load->view('fe/includes/template',$data);
 	}
+=======
+	function __construct(){
+		parent::__construct();
+		$this->load->model('tpa');
+
+}
+public function index(){
+  $data['main_content'] = 'fe/home';
+  $this->load->view('fe/includes/template',$data);
+}
 }
