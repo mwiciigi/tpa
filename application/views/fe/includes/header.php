@@ -2,13 +2,17 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Life Line</title>
+<title>TPA</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,700italic,900,700,500italic,500,400italic,300italic,300,100italic,100|Open+Sans:400,300,400italic,300italic,600,600italic,700italic,700,800|Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
 <!-- Styles -->
 <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 <link href="<?php echo base_url();?>assets/css/icons.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url();?>assets/css/responsive.css" rel="stylesheet" type="text/css" />
@@ -115,15 +119,15 @@ jQuery("#layerslider").layerSlider({
 	<div class="container">
 		<ul>
 			<li>
-				<i class="icon-home"></i>
+				<i class="fa fa-home"></i>
 				425 Street Name, UK, London
 			</li>
 			<li>
-				<i class="icon-phone"></i>
+				<i class="fa fa-phone"></i>
 				(123) 456-7890
 			</li>
 			<li>
-				<i class="icon-envelope"></i>
+				<i class="fa fa-envelope"></i>
 				contact@companymail.com
 			</li>
 		</ul>
@@ -141,43 +145,12 @@ jQuery("#layerslider").layerSlider({
 <header class="header2 sticky">
 	<div class="container">
 		<div class="logo">
-			<a href="#" title=""><img src="images/logo.png" alt="Logo" /><h1><i>L</i>ifeline</h1></a>
+			<a href="#" title=""><img src="images/logo.png" alt="Logo" /><h1><i>T</i>pa</h1></a>
 		</div><!-- Logo -->
 		<a class="header-btn" href="#" title="">DONATE NOW</a>
 		<nav class="menu">
 			<ul id="menu-navigation">
-				<li class="active"><a><i class="icon-circle"></i>Home</a>
-					<ul class="mega-menu2">
-						<li><a href="index.html" title="">Home Simple 1</a></li>
-						<li><a href="index2.html" title="">Home Modern Style</a></li>
-						<li><a href="index3.html" title="">Home Simple 2</a></li>
-						<li><a href="index4.html" title="">Home Simple 3</a></li>
-						<li><a href="index7.html" title="">Home Traditional Style</a></li>
-						<li><a href="index5.html" title="">Home With Video</a></li>
-						<li><a href="index6.html" title="">Home With Portfolio</a></li>
-						<li><a href="index8.html" title="">Home With Sidebar</a></li>
-						<li><a href="index9.html" title="">Home Organization 1</a></li>
-						<li><a href="index10.html" title="">Home Organization 2</a></li>
-						<li><a href="index11.html" title="">Home Minimalist 1</a></li>
-						<li><a href="index12.html" title="">Home Minimalist 2</a></li>
-						<li><a href="index13.html" title="">NonProfit Organization 2016</a></li>
-						<li><a href="index14.html" title="">Photography Hompage 2016</a></li>
-                        <li><a href="index-with-imgcarousel.html" title="">Home image carousel 2017<span>NEW</span></a></li>
-                        <li><a href="index-with-text-carousel.html" title="">Home text carousel 2017<span>NEW</span></a></li>
-                        <li><a href="index-with-banner.html" title="">Home featured banner 2017<span>NEW</span></a></li>
-						<li><a><strong>Header Styles</strong></a>
-							<ul>
-								<li><a href="header1.html" title="">Transparent Header</a></li>
-								<li><a href="header2.html" title="">Header With Social Icons</a></li>
-								<li><a href="header3.html" title="">Header With Countdown</a></li>
-								<li><a href="sticky-menu.html" title="">Sticky Header</a></li>
-								<li><a href="menu-below-slider.html" title="">Menu Below Slider</a></li>
-								<li><a href="middle-logo.html" title="">With Logo In The Mid</a></li>
-								<li><a href="index5.html" title="">Toggle Header</a></li>
-							</ul>
-						</li>
-					</ul><!-- Drop Down -->
-				</li>
+				<li class="active"><a><i class="icon-circle"></i>Home</a></li>
 
 				<li><a><href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
 
