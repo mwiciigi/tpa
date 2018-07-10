@@ -8,22 +8,24 @@
 
 						<div class="ls-slide" data-ls="transition3d:53; timeshift:-1000;">
 							<img src="<?php echo base_url();?>assets/images/slider1.jpg" class="ls-bg" alt="Slide background">
-								<h3 class="ls-l slide1" style="top: 103px; left:48px; background: url(images/slider1-img2.png) no-repeat scroll 0 0 / auto 100% transparent; font-family:roboto; font-size:34px; font-weight:bold; color:#4c4c4c; line-height:56px; padding:0 60px 0 60px; ; border-radius:3px;" data-ls="offsetxin:0;offsetyin:bottom;durationin:1000;easingin:easeOutQuad;fadein:false;rotatein:-10;offsetxout:0;durationout:1500;" ><i>SAVE</i> <span>ENVIRONMENT</span></h3>
-								<span class="ls-l slide1"	style="top: 170px; left:48px; font-family:roboto; font-size:24px; font-weight:600; color:#000; padding:10px 20px 10px 50px; background:rgba(255,255,255,0.9); border-radius:4px 0 0px 4px; border-left:2px solid #93b631; position:relative; line-height:22px; float:left;" data-ls="offsetxin:0;offsetyin:top;durationin:1000;easingin:easeOutQuad;fadein:false;rotatein:10;offsetxout:0;durationout:1500;">BE READY TO WORK <i>WITH US</i></span>
-								<p class="ls-l slide1"	style="top: 230px; left:48px; font-family:roboto; font-size:13px; color:#fefefe;" data-ls="delayin:1000; scalein:4; durationin : 1000;">Sed interdum, lacus et vulputate pellentesque, velit nulla commodo <br/> sem, at egestas nulla metus vel sapien! Lorem ipsum dolor</p>
+								<h3 class="ls-l slide1" style="top: 103px; left:48px; background: url(<?php echo base_url();?>assets/images/slider1-img2.png) no-repeat scroll 0 0 / auto 100% transparent; font-family:roboto; font-size:34px; font-weight:bold; color:#4c4c4c; line-height:56px; padding:0 60px 0 60px; ; border-radius:3px;"
+									data-ls="offsetxin:0;offsetyin:bottom;durationin:1000;easingin:easeOutQuad;fadein:false;rotatein:-10;offsetxout:0;durationout:1500;" ><i>PARTNER</i> <span>WITH US</span></h3>
+								<span class="ls-l slide1"	style="top: 170px; left:48px; font-family:roboto; font-size:24px; font-weight:600; color:#000; padding:10px 20px 10px 50px; background:rgba(255,255,255,0.9); border-radius:4px 0 0px 4px; border-left:2px solid #93b631; position:relative; line-height:22px; float:left;" data-ls="offsetxin:0;offsetyin:top;durationin:1000;easingin:easeOutQuad;fadein:false;rotatein:10;offsetxout:0;durationout:1500;">
+									A SANITARY <i> TOWEL A DAY</i></span>
+								<p class="ls-l slide1"	style="top: 230px; left:48px; font-family:roboto; font-size:13px; color:#fefefe;" data-ls="delayin:1000; scalein:4; durationin : 1000;">take an active role in their
+									education their own health care, including sexual wellness, development, and emotional health.</p>
 						</div><!-- Slide1 -->
 						<div class="ls-slide" data-ls="transition3d:12;timeshift:-1000;">
 							<img src="<?php echo base_url();?>assets/images/slider2.jpg" class="ls-bg" alt="Slide background">
 								<h3 class="ls-l slide3" style="top:96px; left:50px; font-family: roboto; color: #FFFFFF; line-height:22px; font-size:32px; background:rgba(0,0,0,0.85); padding:18px 30px; border-radius:3px;" data-ls="offsetxin:0; scalexin:0; scaleyin:0; offsetxout:0; offsetyout:top; durationin:1500; durationout:800; showuntil:2000; fadeout:false;">
-										HELP <i>US</i> TO HELP OTHERS</h3>
+										HELP <i>US</i> HELP GIRLS</h3>
 
 								<h4 class="ls-l slide3" style="top:165px; left:50px; background:rgba(152,212,96,0.85); font-family: roboto; color: #FFFFFF; font-size:28px; line-height:26px; padding:10px 20px; border-radius:3px;" data-ls="offsetxin:0; scalexin:0; scaleyin:0; offsetxout:0; offsetyout:top; durationin:1500; durationout:800; delayin:500; showuntil:2500;fadeout:false;">
-										RESPONSIVE <span>TEMPLATE</span></h4>
+										MAKE ONE <span>STAY AT SCHOOL TODAY</span></h4>
 
 								<h5 class="ls-l slide3" style="top:219px; left:50px; background:rgba(255,255,255,0.85); color:#595858; font-family:roboto; font-size:24px; line-height: 20px; padding:10px 20px; border-radius:3px;" data-ls="offsetxin:0; scalexin:0; scaleyin:0; offsetxout:0; offsetyout:top; durationin:1500; durationout:800; delayin:1000; showuntil:3000;fadeout:false;">
-										CREATIVE <span>IDEAS</span></h5>
+										NO <span> EARLY MARRIAGE</span></h5>
 						</div><!-- Slide2 -->
-
 
 					</div>
 				</div><!-- Layer Slider -->
@@ -33,8 +35,8 @@
 					<img src="<?php echo base_url();?>assets/images/fancy-donation.jpg" alt="" />
 					<div class="donation-appeal">
 						<h6>TAKE ACTION</h6>
-						<h3>SAVE THE <span>BEES</span></h3>
-						<p>Praesent mauris. Fusce nec tellus sed augue semper porta. Sed et varius est ullam nec erosw.</p>
+						<h3>SAVE A <span>GIRL FROM EARLY MARRIAGE </span></h3>
+						<p>By 2030, the teen birth rate in Kenya will decrease by 50%.</p>
 						<a href="#" data-toggle="modal" data-target="#myModal" title="">Take Action</a>
 					</div>
 				</div>
@@ -79,8 +81,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="sec-heading4">
-					<h2>Our Welfare <span>Projects</span></h2>
-					<p>Quod nece ssita tibus quis expedita </p>
+					<h2>Our <span>Campaigns</span></h2>
+					<p>Participate in one of the projects </p>
 				</div>
 				<div class="wide-project-carousel">
 					<ul class="slides">
@@ -88,11 +90,11 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="wide-project-detail">
-										<h2><a href="#" title="">Let Orphans Feel Your</a></h2>
-										<h3>Warmth & Support! </h3>
+										<h2><a href="#" title="">Donate Sanitary Towels</a></h2>
+										<h3>In support of Mbuuni CHildrens Home </h3>
 										<p>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, susciSuspendisse commodo tempor sagittis! In justo est, sollicitudin eu sceleriplacerat eget elit. Praesent faucibus rutrum odio at rhoncus.</p>
-										<div class="money-spent"><h5><i>$</i>85,920</h5><span>Money Spent</span></div>
-										<div class="project-contact"><i class="icon-phone"></i> 123 (958) 125486</div>
+										<div class="money-spent"><h5><i>Kes</i>15,920</h5><span>Money Spent</span></div>
+										<div class="project-contact"><i class="icon-phone"></i>  +254 (0) 724 439115</div>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -104,11 +106,11 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="wide-project-detail">
-										<h2><a href="#" title="">Be Treated Like A King</a></h2>
-										<h3>All-In-One</h3>
+										<h2><a href="#" title="">Donate Sanitary Towels</a></h2>
+										<h3>Donate from one Piece</h3>
 										<p>Nam aliquam  susci Suspendisse sceleriplacerat eget elit. Praesent faucibus pretium feugiat. Duis sem est, viverra eu interdum ac,commodo tempor sagittis! In justo est, sollicitudin eu rutrum odio at rhoncus.</p>
-										<div class="money-spent"><h5><i>$</i>5,236</h5><span>Money Spent</span></div>
-										<div class="project-contact"><i class="icon-phone"></i> 534 (234) 124536</div>
+										<div class="money-spent"><h5><i>Kes</i>5,236</h5><span>Needed Donation</span></div>
+										<div class="project-contact"><i class="icon-phone"></i> +254 (0) 724 439115</div>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -127,8 +129,8 @@
 		<div class="row">
 			<div class="col-md-9">
 				<div class="sec-heading4">
-					<h2>Our Charity <span>Causes</span></h2>
-					<p>Quod nece ssita tibus quis expedita </p>
+					<h2>Educate One <span>Girl</span></h2>
+					<p>Educate one girl against FGM </p>
 				</div>
 				<div class="charity-causes">
 					<div class="row">
@@ -136,16 +138,16 @@
 							<div class="charity-cause">
 								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/charity-causes1.jpg" alt="" /></div>
 								<div class="charity-cause-detail">
-									<h3><a href="#" title="">Blessed Via Orphan Care</a></h3>
+									<h3><a href="#" title=""> Keep a qirl in school</a></h3>
 									<p>Interdum et malesuada fames acnte primis in faucibus ullam ante.</p>
 									<div class="progress progress-striped active">
 										<div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 84%">
 									</div>
 									</div>
-									<span>Needed Donation <i>$ 20,000</i></span>
+									<span>Needed Donation <i>Kes 20,000</i></span>
 								</div>
 								<div class="cause-location">
-									<p>In <span>South Africa</span></p>
+									<p>In <span>Nakuru</span></p>
 								</div>
 							</div><!-- Charity Cause -->
 						</div>
@@ -153,16 +155,16 @@
 							<div class="charity-cause">
 								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/charity-causes2.jpg" alt="" /></div>
 								<div class="charity-cause-detail">
-									<h3><a href="#" title="">Oceans: Turning Tide</a></h3>
+									<h3><a href="#" title="">Rescue Married Off Girls</a></h3>
 									<p>Interdum et malesuada fames acnte primis in faucibus ullam ante.</p>
 									<div class="progress progress-striped active">
 									  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 37%">
 									  </div>
 									</div>
-									<span>Needed Donation <i>$ 1,43,000</i></span>
+									<span>Needed Donation <i>Kes 143,000</i></span>
 								</div>
 								<div class="cause-location">
-									<p>In <span>Kenya</span></p>
+									<p>In <span>Kisumu</span></p>
 								</div>
 							</div><!-- Charity Cause -->
 						</div>
@@ -170,16 +172,16 @@
 							<div class="charity-cause">
 								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/charity-causes3.jpg" alt="" /></div>
 								<div class="charity-cause-detail">
-									<h3><a href="#" title="">Children with a forever</a></h3>
+									<h3><a href="#" title="">Our Girls are our Future</a></h3>
 									<p>Interdum et malesuada fames acnte primis in faucibus ullam ante.</p>
 									<div class="progress progress-striped active">
 									  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 67%">
 									  </div>
 									</div>
-									<span>Needed Donation <i>$ 24,500</i></span>
+									<span>Needed Donation <i>Kes 24,500</i></span>
 								</div>
 								<div class="cause-location">
-									<p>In <span>Namibia</span></p>
+									<p>In <span>Mombasa</span></p>
 								</div>
 							</div><!-- Charity Cause -->
 						</div>
@@ -190,8 +192,8 @@
 				<div class="urgent-cause">
 					<img src="<?php echo base_url();?>assets/images/urgent-cause.jpg" alt="" />
 					<span><img src="<?php echo base_url();?>assets/images/speaker.png" alt="" /></span>
-					<h3>Our Urgent <span>Causes</span></h3>
-					<h5>Children with a forever</h5>
+					<h3>Our Upcoming <span>Cause</span></h3>
+					<h5>Sanitary Donation to Neema Uhai Home</h5>
 					<div class="progress progress-striped active">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 87%">
 						</div>
@@ -240,21 +242,7 @@
 		</div>
 	</div>
 </div>
-<section class="block">
-	<div style="background:url(images/parallax3.jpg);" class="fixed blackish"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="simple-parallax">
-					<span>Let's Build a World Without Child Abuse.</span>
-					<h3>SPONSOR A <span>CHILD</span></h3>
-					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mole consequat, vel illum facilisis at vero eros et et dote feugait nulla facilis orem ipsum dolor sit amet.</p>
-					<a class="transparent-btn" href="#" title="">SPONSOR NOW</a>
-				</div><!-- Simple Parallax -->
-			</div>
-		</div>
-	</div>
-</section>
+
 <section class="block gray remove-top">
 	<div class="container">
 		<div class="row">
@@ -266,8 +254,8 @@
 								<span><img src="<?php echo base_url();?>assets/images/icon.png" alt="" /></span>
 								<h3>Charity Event In Hospital</h3>
 								<ul>
-									<li><a href="#" title=""><i class="icon-user"></i> By Pastor Joel Osteen</a></li>
-									<li><a href="#" title=""><i class="icon-calendar"></i> July 2, 2014</a></li>
+									<li><a href="#" title=""><i class="icon-user"></i> By Asya</a></li>
+									<li><a href="#" title=""><i class="icon-calendar"></i> July 2, 2018</a></li>
 								</ul>
 							</div><!-- About Upcoming Event -->
 						</div>
@@ -292,8 +280,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="sec-heading4">
-					<h2>Our Charity <span>Events</span></h2>
-					<p>Quod nece ssita tibus quis expedita </p>
+					<h2>Read From <span> Our Blog</span></h2>
+					<p>Become informed about the cause of our girls today </p>
 				</div>
 				<div class="charity-events">
 					<div class="row">

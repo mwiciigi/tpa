@@ -26,9 +26,9 @@
 .event-post-image span,
 .search-button,
 .sidebar-title > h4:after,
-.pagination > li > a:hover, 
-.pagination > li > span:hover, 
-.pagination > li > a:focus, 
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
 .pagination > li > span:focus,
 .search-tabs li.active a,
 .search-tabs li.active a:hover,
@@ -98,7 +98,7 @@ header.header3 #menu-navigation li ul li:hover,
 .featured-bottomleftcap > ul > li > a,
 .donationpost-detail > a,
 .donationpost-carousel .owl-nav > div,
-.donation-sec > .row > div:nth-child(2n) > .donation.active, 
+.donation-sec > .row > div:nth-child(2n) > .donation.active,
 .donation.active,
 .donation-content .other-amount > form button,
 .scroll-content > a,
@@ -108,7 +108,7 @@ header.header3 #menu-navigation li ul li:hover,
 .social-links > li > a:hover,
 .footer-bottom.style2,
 .helping-hand-detail > a{
-	background-color:#93b631;
+	background-color:#ce75fc;
 }
 .message-box-title > span,
 .countSeconds,
@@ -239,7 +239,7 @@ h5.slide3 span,
 .text-meta > h3 span,
 .text > h3 span
 {
-	color:#93b631;
+	color:#ce75fc;
 }
 
 .causes-pagi:hover,

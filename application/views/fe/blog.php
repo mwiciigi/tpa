@@ -1,3 +1,7 @@
+<div class="top-image">
+	<img src="<?php echo base_url();?>assets/images/single-page-top3.jpg" alt="" />
+</div><!-- Page Top Image -->
+
 <section class="inner-page">
 	<div class="container">
 		<div class="page-title">
@@ -7,7 +11,7 @@
 			<div class="left-content col-md-9">
 				<div class="blog-post">
 					<h2><a href="single-post-image.html" title="">1 Million people in Uganda were fed during the war times</a></h2>
-					<a class="blog-post-img" href="single-post-image.html" title=""><img src="images/blog-post-ws-1.jpg" alt="" /></a>
+					<a class="blog-post-img" href="single-post-image.html" title=""><img src="<?php echo base_url();?>assets/images/blog-post-ws-1.jpg" alt="" /></a>
 					<div class="blog-post-details">
 						<ul class="post-meta">
 							<li><a href="" title=""><i class="icon-calendar-empty"></i><span>September</span> 1,2013</a></li>
@@ -17,8 +21,8 @@
 						<div class="post-desc">
 							<div class="image-lists">
 								<ul>
-									<li><a href="images/blank-image.jpg" class="html5lightbox" title=""><img src="images/list2.jpg" alt="" /></a></li>
-									<li><a href="images/blank-image.jpg" class="html5lightbox" title=""><img src="images/list3.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list2.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
 								</ul>
 							</div>
 							<p>Donec et libero quis erat commodo suscipit. Mae elit a,  eleifend leo. Phase llusp utpharetra mi, ctor diam. id Suus arcisd pendisse rhoncus id arcet porta. Aenean blandit mi ipsum, ut pharetrnisi vestibulum ornare.</p>
@@ -31,11 +35,11 @@
 						<div id="layerslider" style="width: 100%; height: 325px; margin: 0px auto; ">
 
 							<div class="ls-layer" style="transition2d: 5; slidedelay: 8000;" >
-								<img src="images/blog-slide1.jpg" class="ls-bg" alt="Slide background">
+								<img src="<?php echo base_url();?>assets/images/blog-slide1.jpg" class="ls-bg" alt="Slide background">
 							</div><!-- Slide1 -->
 
 							<div class="ls-layer" style="transition2d: 77; slidedelay: 8000;" >
-								<img src="images/blog-slide2.jpg" class="ls-bg" alt="Slide background">
+								<img src="<?php echo base_url();?>assets/images/blog-slide2.jpg" class="ls-bg" alt="Slide background">
 							</div><!-- Slide2 -->
 						</div>
 
@@ -49,8 +53,8 @@
 						<div class="post-desc">
 							<div class="image-lists">
 								<ul>
-									<li><a href="images/blank-image.jpg" class="html5lightbox" title=""><img src="images/list2.jpg" alt="" /></a></li>
-									<li><a href="images/blank-image.jpg" class="html5lightbox" title=""><img src="images/list3.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list2.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
 								</ul>
 							</div>
 							<p>Donec et libero quis erat commodo suscipit. Mae elit a,  eleifend leo. Phase llusp utpharetra mi, ctor diam. id Suus arcisd pendisse rhoncus id arcet porta. Aenean blandit mi ipsum, ut pharetrnisi vestibulum ornare.</p>
@@ -60,7 +64,7 @@
 				<div class="blog-post">
 					<h2><a href="single-post-video.html" title="">In California, child education plans were introduced</a></h2>
 					<div class="video-post">
-						<img alt="" src="images/blog-post-ws-2.jpg">
+						<img alt=""src="<?php echo base_url();?>assets/images/blog-post-ws-2.jpg">
 						<a title="" href="#"><i class="icon-play"></i></a>
 					</div>
 					<div class="blog-post-details">
@@ -72,8 +76,8 @@
 						<div class="post-desc">
 							<div class="image-lists">
 								<ul>
-									<li><a href="images/blank-image.jpg" class="html5lightbox" title=""><img src="images/list2.jpg" alt="" /></a></li>
-									<li><a href="images/blank-image.jpg" class="html5lightbox" title=""><img src="images/list3.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list2.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
 								</ul>
 							</div>
 							<p>Donec et libero quis erat commodo suscipit. Mae elit a,  eleifend leo. Phase llusp utpharetra mi, ctor diam. id Suus arcisd pendisse rhoncus id arcet porta. Aenean blandit mi ipsum, ut pharetrnisi vestibulum ornare.</p>
@@ -113,14 +117,14 @@
 						<h4>Popular <span>Posts</span></h4>
 					</div>
 					<div class="popular-post">
-						<img src="images/popular-post1.jpg" alt="" />
+						<img src="<?php echo base_url();?>assets/images/popular-post1.jpg" alt="" />
 						<div class="popular-post-title">
 							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
 							<span>May 3,2013 / 02 comments</span>
 						</div>
 					</div>
 					<div class="popular-post">
-						<img src="images/popular-post2.jpg" alt="" />
+						<img src="<?php echo base_url();?>assets/images/popular-post2.jpg" alt="" />
 						<div class="popular-post-title">
 							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
 							<span>May 3,2013 / 02 comments</span>
