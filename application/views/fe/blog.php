@@ -12,13 +12,14 @@
 		<div class="row">
 			<div class="left-content col-md-9">
 				<div class="blog-post">
-					<h2><a href="single-post-image.html" title="">1 Million people in Uganda were fed during the war times</a></h2>
+					<h2><a href="single-post-image.html" title=""><?php echo $row->title; ?></a></h2>
 					<a class="blog-post-img" href="single-post-image.html" title=""><img src="<?php echo base_url();?>assets/images/blog-post-ws-1.jpg" alt="" /></a>
+          <?php foreach ($posts as $row): ?>
 					<div class="blog-post-details">
 						<ul class="post-meta">
-							<li><a href="" title=""><i class="icon-calendar-empty"></i><span>September</span> 1,2013</a></li>
+							<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->createdat; ?></span></a></li>
 							<li><a href="" title=""><i class="icon-share-alt"></i>Home / Blog</a></li>
-							<li><a href="" title=""><i class="icon-map-marker"></i>In South Africa</a></li>
+							<li><a href="" title=""><i class="icon-map-marker"></i><?php echo $row->location; ?></a></li>
 						</ul>
 						<div class="post-desc">
 							<div class="image-lists">
@@ -27,12 +28,13 @@
 									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
 								</ul>
 							</div>
-							<p>Donec et libero quis erat commodo suscipit. Mae elit a,  eleifend leo. Phase llusp utpharetra mi, ctor diam. id Suus arcisd pendisse rhoncus id arcet porta. Aenean blandit mi ipsum, ut pharetrnisi vestibulum ornare.</p>
+							<p><?php echo $row->article; ?></p>
 						</div>
 					</div>
+        <?php endforeach; ?>
 				</div><!-- Blog Post With Image -->
 				<div class="blog-post">
-					<h2><a href="single-post-slider.html" title="">Lifeline team helped the norcotics addicts to recover in Asia</a></h2>
+					<h2><a href="single-post-slider.html" title=""><?php echo $row->title; ?></a></h2>
 					<div id="layerslider-container-fw">
 						<div id="layerslider" style="width: 100%; height: 325px; margin: 0px auto; ">
 
@@ -46,11 +48,12 @@
 						</div>
 
 					</div><!-- Layer Slider -->
+          <?php foreach ($posts as $row): ?>
 					<div class="blog-post-details">
 						<ul class="post-meta">
-							<li><a href="" title=""><i class="icon-calendar-empty"></i><span>September</span> 1,2013</a></li>
+							<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->createdat; ?></span></a></li>
 							<li><a href="" title=""><i class="icon-share-alt"></i>Home / Blog</a></li>
-							<li><a href="" title=""><i class="icon-map-marker"></i>In South Africa</a></li>
+							<li><a href="" title=""><i class="icon-map-marker"></i><?php echo $row->location; ?></a></li>
 						</ul>
 						<div class="post-desc">
 							<div class="image-lists">
@@ -59,21 +62,23 @@
 									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
 								</ul>
 							</div>
-							<p>Donec et libero quis erat commodo suscipit. Mae elit a,  eleifend leo. Phase llusp utpharetra mi, ctor diam. id Suus arcisd pendisse rhoncus id arcet porta. Aenean blandit mi ipsum, ut pharetrnisi vestibulum ornare.</p>
+							<p>><?php echo $row->article; ?></p>
 						</div>
 					</div>
+        <?php endforeach; ?>
 				</div><!-- Blog Post With Slider -->
+        <?php foreach ($posts as $row): ?>
 				<div class="blog-post">
-					<h2><a href="single-post-video.html" title="">In California, child education plans were introduced</a></h2>
+					<h2><a href="single-post-video.html" title=""><?php echo $row->title; ?></a></h2>
 					<div class="video-post">
 						<img alt=""src="<?php echo base_url();?>assets/images/blog-post-ws-2.jpg">
 						<a title="" href="#"><i class="icon-play"></i></a>
 					</div>
 					<div class="blog-post-details">
 						<ul class="post-meta">
-							<li><a href="" title=""><i class="icon-calendar-empty"></i><span>September</span> 1,2013</a></li>
+							<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->createdat; ?></span></a></li>
 							<li><a href="" title=""><i class="icon-share-alt"></i>Home / Blog</a></li>
-							<li><a href="" title=""><i class="icon-map-marker"></i>In South Africa</a></li>
+							<li><a href="" title=""><i class="icon-map-marker"></i><?php echo $row->location; ?></a></li>
 						</ul>
 						<div class="post-desc">
 							<div class="image-lists">
@@ -82,11 +87,11 @@
 									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
 								</ul>
 							</div>
-							<p>Donec et libero quis erat commodo suscipit. Mae elit a,  eleifend leo. Phase llusp utpharetra mi, ctor diam. id Suus arcisd pendisse rhoncus id arcet porta. Aenean blandit mi ipsum, ut pharetrnisi vestibulum ornare.</p>
+							<p><?php echo $row->sliderarticle; ?></p>
 						</div>
 					</div>
 				</div><!-- Blog Post With Video -->
-
+      <?php endforeach; ?>
 				<div class="pagination-area">
 					<ul class="pagination">
 					  <li><a href="#">1</a></li>
@@ -179,4 +184,3 @@
 	</div>
 </section>
 </div>
-
