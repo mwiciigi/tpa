@@ -1,6 +1,6 @@
 
 <div class="top-image">
-	<img src="<?php echo base_url();?>assets/images/single-page-top3.jpg" alt="" />
+
 </div><!-- Page Top Image -->
 
 
@@ -12,9 +12,10 @@
 		<div class="row">
 			<div class="left-content col-md-9">
 				<div class="blog-post">
+					<?php foreach ($pagetitle as $row): ?>
 					<h2><a href="single-post-image.html" title=""><?php echo $row->title; ?></a></h2>
-					<a class="blog-post-img" href="single-post-image.html" title=""><img src="<?php echo base_url();?>assets/images/blog-post-ws-1.jpg" alt="" /></a>
-          <?php foreach ($posts as $row): ?>
+					<a class="blog-post-img" href="single-post-image.html" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a>
+
 					<div class="blog-post-details">
 						<ul class="post-meta">
 							<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->createdat; ?></span></a></li>
@@ -24,8 +25,8 @@
 						<div class="post-desc">
 							<div class="image-lists">
 								<ul>
-									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list2.jpg" alt="" /></a></li>
-									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a></li>
 								</ul>
 							</div>
 							<p><?php echo $row->article; ?></p>
@@ -34,22 +35,25 @@
         <?php endforeach; ?>
 				</div><!-- Blog Post With Image -->
 				<div class="blog-post">
+					<?php foreach ($blogpostwithimage as $row): ?>
 					<h2><a href="single-post-slider.html" title=""><?php echo $row->title; ?></a></h2>
 					<div id="layerslider-container-fw">
 						<div id="layerslider" style="width: 100%; height: 325px; margin: 0px auto; ">
 
 							<div class="ls-layer" style="transition2d: 5; slidedelay: 8000;" >
-								<img src="<?php echo base_url();?>assets/images/blog-slide1.jpg" class="ls-bg" alt="Slide background">
+								<img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" class="ls-bg" alt="Slide background">
 							</div><!-- Slide1 -->
 
 							<div class="ls-layer" style="transition2d: 77; slidedelay: 8000;" >
-								<img src="<?php echo base_url();?>assets/images/blog-slide2.jpg" class="ls-bg" alt="Slide background">
+								<img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" class="ls-bg" alt="Slide background">
 							</div><!-- Slide2 -->
 						</div>
 
 					</div><!-- Layer Slider -->
-          <?php foreach ($posts as $row): ?>
+				<?php endforeach; ?>
+
 					<div class="blog-post-details">
+						<?php foreach ($layerslier as $row): ?>
 						<ul class="post-meta">
 							<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->createdat; ?></span></a></li>
 							<li><a href="" title=""><i class="icon-share-alt"></i>Home / Blog</a></li>
@@ -58,17 +62,19 @@
 						<div class="post-desc">
 							<div class="image-lists">
 								<ul>
-									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list2.jpg" alt="" /></a></li>
-									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a></li>
 								</ul>
 							</div>
 							<p>><?php echo $row->article; ?></p>
 						</div>
+						<?php endforeach; ?>
 					</div>
-        <?php endforeach; ?>
+
 				</div><!-- Blog Post With Slider -->
-        <?php foreach ($posts as $row): ?>
+
 				<div class="blog-post">
+					<?php foreach ($blogpostwithslider as $row): ?>
 					<h2><a href="single-post-video.html" title=""><?php echo $row->title; ?></a></h2>
 					<div class="video-post">
 						<img alt=""src="<?php echo base_url();?>assets/images/blog-post-ws-2.jpg">
@@ -83,15 +89,16 @@
 						<div class="post-desc">
 							<div class="image-lists">
 								<ul>
-									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list2.jpg" alt="" /></a></li>
-									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url();?>assets/images/list3.jpg" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a></li>
+									<li><a href="<?php echo base_url();?>assets/images/blank-image.jpg" class="html5lightbox" title=""><img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" /></a></li>
 								</ul>
 							</div>
 							<p><?php echo $row->sliderarticle; ?></p>
 						</div>
 					</div>
+					<?php endforeach; ?>
 				</div><!-- Blog Post With Video -->
-      <?php endforeach; ?>
+
 				<div class="pagination-area">
 					<ul class="pagination">
 					  <li><a href="#">1</a></li>
@@ -124,31 +131,20 @@
 						<h4>Popular <span>Posts</span></h4>
 					</div>
 					<div class="popular-post">
-						<img src="<?php echo base_url();?>assets/images/popular-post1.jpg" alt="" />
+						<img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" />
 						<div class="popular-post-title">
 							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
 							<span>May 3,2013 / 02 comments</span>
 						</div>
 					</div>
 					<div class="popular-post">
-						<img src="<?php echo base_url();?>assets/images/popular-post2.jpg" alt="" />
+						<img src="<?php echo base_url(); ?>uploads/<?php echo $row->image; ?>" alt="" />
 						<div class="popular-post-title">
 							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
 							<span>May 3,2013 / 02 comments</span>
 						</div>
 					</div>
 				</div><!-- Popular Posts -->
-				<div class="sidebar-widget">
-					<div class="sidebar-title">
-						<h4>Meta <span>Data</span></h4>
-					</div>
-					<ul class="sidebar-list">
-						<li><a href="#" title="">Blog</a></li>
-						<li><a href="#" title="">Creative</a></li>
-						<li><a href="#" title="">Powerful</a></li>
-						<li><a href="#" title="">Clean</a></li>
-					</ul>
-				</div><!-- Meta Data -->
 				<div class="sidebar-widget">
 					<div class="sidebar-title">
 						<h4>Tags <span>Clouds</span></h4>
