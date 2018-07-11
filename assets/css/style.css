@@ -3651,7 +3651,7 @@ footer .container {
 .post-meta > li a{
     color:#969696;
     font-family:roboto;
-    font-size:11px;
+    font-size:12px;
 }
 .post-meta > li a span{
     color:#7c7c7c465;
@@ -3668,7 +3668,7 @@ footer .container {
 .post-desc > p {
     color:#858585;
     font-family:open sans;
-    font-size:12px;
+    font-size:13px;
     line-height:22px;
     margin:10px 0;
 }
