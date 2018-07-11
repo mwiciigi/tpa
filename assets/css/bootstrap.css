@@ -304,7 +304,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #f3f5f7;
   text-decoration: none;
 }
 
@@ -4628,13 +4628,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding: 5px 15px;
     position: relative;
     text-decoration: none;
-	
+
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    border-radius: 20px;	
-	
+    border-radius: 20px;
+
 	-webkit-transition:all 0.3s ease 0s;
 	-moz-transition:all 0.3s ease 0s;
 	-ms-transition:all 0.3s ease 0s;
@@ -5383,7 +5383,7 @@ a.list-group-item:focus {
     right: 15px;
     top: 50%;
     width: 20px;
-	
+
 	-webkit-transition:all 0.4s ease 0s;
 	-moz-transition:all 0.4s ease 0s;
 	-ms-transition:all 0.4s ease 0s;
