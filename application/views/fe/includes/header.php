@@ -136,11 +136,11 @@ jQuery("#layerslider").layerSlider({
 		</ul>
 		<div class="header-social">
 			<ul>
-				<li><a href="#" title=""><i class="icon-google-plus"></i></a></li>
-				<li><a href="#" title=""><i class="icon-facebook"></i></a></li>
-				<li><a href="#" title=""><i class="icon-skype"></i></a></li>
-				<li><a href="#" title=""><i class="icon-linkedin"></i></a></li>
-				<li><a href="#" title=""><i class="icon-twitter"></i></a></li>
+				<li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#" title=""><i class="fa fa-skype"></i></a></li>
+				<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
 			</ul>
 		</div>
 	</div>
@@ -154,11 +154,11 @@ jQuery("#layerslider").layerSlider({
 		<nav class="menu">
 			<ul id="menu-navigation">
 					<li class="active"><a href="home"<i class="icon-circle"></i>Home</a></li>
-					<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>About</a></li>
-					<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>Projects</a></li>
-					<li><a href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
-					<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>Gallery</a></li>
-					<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>Contact Us</a></li>
+					<li><a href="<?php echo base_url();?>about"><i class="fa fa-circle"></i>About</a></li>
+					<li><a href="<?php echo base_url();?>projectlist"><i class="fa fa-circle"></i>Projects</a></li>
+					<li><a href="<?php echo base_url();?>blog"><i class="fa fa-circle"></i>Blog</a></li>
+					<li><a href="<?php echo base_url();?>gallery"><i class="fa fa-circle"></i>Gallery</a></li>
+					<li><a href="<?php echo base_url();?>contact"><i class="fa fa-circle"></i>Contact Us</a></li>
 					</ul><!-- Drop Down -->
 				</li>
 			</ul>
@@ -196,12 +196,12 @@ jQuery("#layerslider").layerSlider({
 	<div class="responsive-menu">
 		<span class="close-btn"><i class="fa fa-close"></i></span>
 		<ul>
-			<li class="has-dropdown"><a href="blog" title="">Home</a></li>
+			<li class="has-dropdown"><a href="home" title="">Home</a></li>
 			<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>About</a></li>
-			<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>Projects</a></li>
+			<li><a href="<?php echo base_url();?>project"><i class="icon-circle"></i>Projects</a></li>
 			<li><a href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
-			<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>Gallery</a></li>
-			<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>Contact Us</a></li>
+			<li><a href="<?php echo base_url();?>gallery"><i class="icon-circle"></i>Gallery</a></li>
+			<li><a href="<?php echo base_url();?>contact"><i class="icon-circle"></i>Contact Us</a></li>
 	</div>
 	<button class="responsive-donate">Donate Now</button>
 </div><!--Responsive header-->

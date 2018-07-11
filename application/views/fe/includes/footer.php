@@ -81,11 +81,11 @@
 					<input class="form-control" type="email" placeholder="Email" />
 				</div>
 				<ul class="social-bar">
-					<li><a href="#" title=""><img src="<?php echo base_url();?>assets/images/rss.jpg" alt="" /></a></li>
-					<li><a href="#" title=""><img src="<?php echo base_url();?>assets/images/facebook.jpg" alt="" /></a></li>
-					<li><a href="#" title=""><img src="<?php echo base_url();?>assets/images/gplus.jpg" alt="" /></a></li>
-					<li><a href="#" title=""><img src="<?php echo base_url();?>assets/images/linked-in.jpg" alt="" /></a></li>
-					<li><a href="#" title=""><img src="<?php echo base_url();?>assets/images/pinterest.jpg" alt="" /></a></li>
+					<li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" title=""><i class="fa fa-skype"></i></a></li>
+					<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
 				</ul>
 				<div class="newsletter-btn">
 					<input type="button" value="Submit" />
@@ -98,12 +98,12 @@
 	<div class="container">
 		<p>Copyright © 2013 Global News. <span>All rights reserved.</span> </p>
 		<ul>
-			<li><a href="index.html" title="">HOME</a></li>
-			<li><a href="about.html" title="">ABOUT</a></li>
-			<li><a href="elements.html" title="">ELEMENTS</a></li>
-			<li><a href="blog-with-sidebar.html" title="">BLOG</a></li>
-			<li><a href="events.html" title="">EVENTS</a></li>
-			<li><a href="contact.html" title="">CONTACT</a></li>
+			<li><a href="home"<i class="icon-circle"></i>Home</a></li>
+			<li><a href="<?php echo base_url();?>about"><i class="icon-circle"></i>About</a></li>
+			<li><a href="<?php echo base_url();?>projectlist"><i class="icon-circle"></i>Projects</a></li>
+			<li><a href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
+			<li><a href="<?php echo base_url();?>gallery"><i class="icon-circle"></i>Gallery</a></li>
+			<li><a href="<?php echo base_url();?>contact"><i class="icon-circle"></i>Contact Us</a></li>
 		</ul>
 
 	</div>
