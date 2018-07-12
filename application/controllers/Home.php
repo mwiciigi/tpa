@@ -24,6 +24,7 @@ class Home extends CI_Controller {
 		}
 	public function projectlist(){
 			$data['main_content'] = 'fe/projectlist';
+			$data['projectlist'] = $this->tpa->get_projectlist();
 			$this->load->view('fe/includes/template',$data);
 		}
 
