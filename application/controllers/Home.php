@@ -21,10 +21,11 @@ class Home extends CI_Controller {
 		$this->load->view('fe/includes/template',$data);
 	}
 
-	public function project(){
+	public function readproject($project_id){
 			$data['main_content'] = 'fe/project';
 			$data['project'] = $this->tpa->get_projects();
 			$data['projectlist'] = $this->tpa->get_projectlist();
+			$data['project'] = $this->tpa->get_projects($project_id);
 			$this->load->view('fe/includes/template',$data);
 		}
 	public function projectlist(){
