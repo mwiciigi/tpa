@@ -12,14 +12,16 @@
 		<?php foreach ($projectlist as $row): ?>
 				<div class="col-md-4">
 					<div class="story">
+
 						<div class="story-img">
 							<img src="<?php echo base_url();?>assets/images/<?php echo $row->project_image;?>" alt="" />
-							<h5><?php echo $row->project_title;?></h5>
-							<a href="<?php echo base_url();?>project" title=""><span></span></a>
-						</div>
-						<p><?php echo $row->project_article;?></p>
-						<h6><i>Ksh</i><?php echo $row->moneyspent;?><span>Money Spent</span></h6>
-						<span><i class="icon-map-marker"></i><?php echo $row->project_location;?></span>
+							</div>
+							<h5 style="padding-bottom:10px"><a href="<?php echo base_url();?>home/readproject/<?php echo $row->project_id;?>"><?php echo $row->project_title;?></a></h5>
+
+						<p><?php echo character_limiter($row->project_article, 200);?><span style="color: #a561d6;font-size:15px">Read More</span></p>
+						<hr/>
+						<h6><i>Ksh </i><strong><?php echo $row->moneyspent;?></strong><i><span>Money Spent</span></i></h6>
+						<span><i class="fa fa-map-marker"></i><?php echo $row->project_location;?></span>
 					</div><!--Story-->
 				</div>
 		<?php endforeach ?>
