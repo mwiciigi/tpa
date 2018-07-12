@@ -9,18 +9,20 @@
 			</div><!--Page Title-->
 			<div class="col-md-9">
 			<div class="row">
+		<?php foreach ($projectlist as $row): ?>
 				<div class="col-md-4">
 					<div class="story">
 						<div class="story-img">
-							<img src="<?php echo base_url();?>assets/images/story1.jpg" alt="" />
-							<h5>Billionair Help for Charity Food</h5>
+							<img src="<?php echo base_url();?>assets/images/<?php echo $row->project_image;?>" alt="" />
+							<h5><?php echo $row->project_title;?></h5>
 							<a href="<?php echo base_url();?>project" title=""><span></span></a>
 						</div>
-						<p>Lorem ipsum dolor sit amet, condsec adipii ing elit. Pellentesque mi tellus, fring non uontdum vitae, tempor id lorem. Ring nonntedum vitae, tempor id lorem. </p>
-						<h6><i>$</i> 85920<span>Money Spent</span></h6>
-						<span><i class="icon-map-marker"></i>In SouthAfrica</span>
+						<p><?php echo $row->project_article;?></p>
+						<h6><i>Ksh</i><?php echo $row->moneyspent;?><span>Money Spent</span></h6>
+						<span><i class="icon-map-marker"></i><?php echo $row->project_location;?></span>
 					</div><!--Story-->
 				</div>
+		<?php endforeach ?>
 			</div>
 			<div class="pagination-area">
 				<ul class="pagination">

@@ -21,4 +21,9 @@
         $query = $this->db->get('project');
         return $query->result();
      }
+     function get_projectlist(){
+       $this->db->order_by("id","desc");
+       $query = $this->db->get('project');
+       return $query->result();
+    }
       }
