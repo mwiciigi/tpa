@@ -19,6 +19,7 @@ class Home extends CI_Controller {
 
 	public function project(){
 			$data['main_content'] = 'fe/project';
+			$data['project'] = $this->tpa->get_projects();
 			$this->load->view('fe/includes/template',$data);
 		}
 	public function projectlist(){

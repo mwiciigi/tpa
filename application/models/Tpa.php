@@ -16,4 +16,9 @@
          $query = $this->db->get('blog',3);
          return $query->result();
       }
+      function get_projects(){
+        $this->db->order_by("id","desc");
+        $query = $this->db->get('project');
+        return $query->result();
+     }
       }
