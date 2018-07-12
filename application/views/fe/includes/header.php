@@ -5,8 +5,7 @@
 <title>TPA</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,700italic,900,700,500italic,500,400italic,300italic,300,100italic,100|Open+Sans:400,300,400italic,300italic,600,600italic,700italic,700,800|Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Lato|Nunito" rel="stylesheet"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <!-- Styles -->
 <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -136,11 +135,11 @@ jQuery("#layerslider").layerSlider({
 		</ul>
 		<div class="header-social">
 			<ul>
-				<li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
-				<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#" title=""><i class="fa fa-skype"></i></a></li>
-				<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+				<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/rss.jpg"></a></li>
+				<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/facebook.jpg"></a></li>
+				<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/gplus.jpg"></a></li>
+				<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/linked-in.jpg"></a></li>
+				<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/pinterest.jpg"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -176,12 +175,11 @@ jQuery("#layerslider").layerSlider({
 			<div class="container">
 				<div class="responsive-socialbtns">
 					<ul>
-						<li><a href="#" title=""><i class="fa fa-rss"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/rss.jpg"></a></li>
+						<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/facebook.jpg"></a></li>
+						<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/gplus.jpg"></a></li>
+						<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/linked-in.jpg"></a></li>
+						<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/pinterest.jpg"></a></li>
 					</ul>
 				</div>
 			</div>
