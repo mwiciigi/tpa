@@ -18,7 +18,7 @@
       }
       function get_projects(){
         $this->db->order_by("id","desc");
-        $query = $this->db->get('project');
+        $query = $this->db->get('project',1);
         return $query->result();
      }
      function get_projectlist(){
@@ -26,4 +26,24 @@
        $query = $this->db->get('project');
        return $query->result();
     }
+    function get_vision(){
+      $this->db->order_by("id","desc");
+      $query = $this->db->get('vision');
+      return $query->result();
+   }
+   function get_mission(){
+     $this->db->order_by("id","desc");
+     $query = $this->db->get('mission');
+     return $query->result();
+  }
+  function get_aboutus(){
+    $this->db->order_by("id","desc");
+    $query = $this->db->get('aboutus');
+    return $query->result();
+ }
+ function get_objectives(){
+   $this->db->order_by("id","desc");
+   $query = $this->db->get('objectives');
+   return $query->result();
+}
       }

@@ -18,7 +18,7 @@
 							<a href="<?php echo base_url();?>project" title=""><span></span></a>
 						</div>
 						<p><?php echo $row->project_article;?></p>
-						<h6><i>Ksh</i><?php echo $row->moneyspent;?><span>Money Spent</span></h6>
+						<h6><i>Kes</i><?php echo $row->moneyspent;?><span>Money Spent</span></h6>
 						<span><i class="icon-map-marker"></i><?php echo $row->project_location;?></span>
 					</div><!--Story-->
 				</div>

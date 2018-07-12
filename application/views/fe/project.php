@@ -86,44 +86,18 @@
 						<input class="search-button" type="submit" value="" />
 					</div>
 				</div><!-- Sidebar Search -->
+			<?php foreach ($projectlist as $row):?>
 				<div class="sidebar-widget">
-					<div class="sidebar-title">
-						<h4>Popular <span>Posts</span></h4>
-					</div>
-					<div class="popular-post">
-						<img src="<?php echo base_url();?>assets/images/popular-post1.jpg" alt="" />
-						<div class="popular-post-title">
-							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
-							<span>May 3,2013 / 02 comments</span>
-						</div>
-					</div>
-					<div class="popular-post">
-						<img src="<?php echo base_url();?>assets/images/popular-post2.jpg" alt="" />
-						<div class="popular-post-title">
-							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
-							<span>May 3,2013 / 02 comments</span>
-						</div>
-					</div>
-				</div><!-- Popular Posts -->
-
+					<ul class="sidebar-list">
+						<li><a href="#" title=""><?php echo $row->project_title;?></a></li>
+						<p><?php echo $row->project_startdate;?></p>
+					</ul>
+				</div><!-- Category List -->
+    <?php endforeach; ?>
 
 				<div class="sidebar-widget">
 					<div class="sidebar-title">
 						<h4>Recent <span>Events</span></h4>
-					</div>
-					<div class="popular-post">
-						<img src="<?php echo base_url();?>assets/images/sidebar-events.jpg" alt="" />
-						<div class="popular-post-title">
-							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
-							<span>May 3,2013 / 02 comments</span>
-						</div>
-					</div>
-					<div class="popular-post">
-						<img src="<?php echo base_url();?>assets/images/sidebar-events2.jpg" alt="" />
-						<div class="popular-post-title">
-							<h6><a href="#" title="">Quisque Sit Amet Unte</a></h6>
-							<span>May 3,2013 / 02 comments</span>
-						</div>
 					</div>
 				</div><!-- Recent Events -->
 				<div class="sidebar-widget">

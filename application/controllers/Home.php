@@ -14,12 +14,17 @@ class Home extends CI_Controller {
 	}
 	public function about(){
 		$data['main_content'] = 'fe/about';
+		$data['aboutus'] = $this->tpa->get_aboutus();
+		$data['mission'] = $this->tpa->get_mission();
+		$data['vision'] = $this->tpa->get_vision();
+		$data['objectives'] = $this->tpa->get_objectives();
 		$this->load->view('fe/includes/template',$data);
 	}
 
 	public function project(){
 			$data['main_content'] = 'fe/project';
 			$data['project'] = $this->tpa->get_projects();
+			$data['projectlist'] = $this->tpa->get_projectlist();
 			$this->load->view('fe/includes/template',$data);
 		}
 	public function projectlist(){

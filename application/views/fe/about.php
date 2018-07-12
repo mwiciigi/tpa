@@ -18,26 +18,21 @@
 				<div class="tab-content" id="myTabContent">
 					<div id="all" class="tab-pane fade active in">
 						<div class="search-result">
+					<?php foreach ($aboutus as $row):?>
 							<div class="row">
 								<div class="col-md-4">
 									<a  class="search-image" href="#" title="">
-										<img src="<?php echo base_url();?>assets/images/search-post.jpg" alt="" />
+									<img src="<?php echo base_url();?>uploads/<?php echo $row->about_image;?>" alt="" />
 									</a>
 								</div>
 								<div class="col-md-8">
 									<div class="search-detail">
 										<h3>Teen Pregnancy Awareness<span> (TPA)</span></h3>
-										<p>TPA Initiative was started in 2016 and reaches out to more than 1500 girls yearly as it seeks to
-                      empower young girls through mentorships, guidance and counseling and to see girls attend
-                      school with little or no disturbances brought forth by normal body functions through provision of
-                      sanitary towels.</p>
-                    <p>We are striving to develop meaningful partnerships to enhance a sustained capacity to collect;
-                      purchase and distribute sanitary towels to young needy girls in informal settlements, primary and
-                      high schools and children homes, whilst equipping them with life skills that prepare them to
-                      participate in life processes with dignity and respect.</p>
+										<p><?php echo $row->aboutusarticle;?></p>
 									</div>
 								</div>
 							</div>
+					<?php endforeach; ?>
 						</div>
 					</div><!-- All -->
 
@@ -45,30 +40,27 @@
 
           <div id="objective" class="tab-pane fade in">
            <div class="search-result">
+					<?php foreach ($objectives as $row):?>
              <div class="row">
                <div class="col-md-4">
                  <a  class="search-image" href="#" title="">
-                   <img src="<?php echo base_url();?>assets/images/search-post.jpg" alt="" />
+              <img src="<?php echo base_url();?>uploads/<?php echo $row->objective_image;?>" alt="" />
                  </a>
                </div>
                <div class="col-md-8">
                  <div class="search-detail">
                    <h3>Our Objectives at <span> TPA</span></h3>
                   <ol>
-                    <li>To provide health talks in education centers about teen pregnancy and adolescents
-                        reproductive health and also work as a referral point</li>
-                    <li>To distribute sanitary towels to the less privilege girls in schools and out of school</li>
-                    <li> Network with other groups and organization through seminars, forums, workshops as
-                        a way of empowering each other on issues concerning teen pregnancy and other
-                        challenges facing the youths in the society</li>
-                    <li>To network and form groups which will eventually develop youths in positive
-                        changes and positive ways in the society and also advocate against early marriage and
-                        teenage pregnancy, environmental and health sanitation</li>
+                    <li><?php echo $row->objective_list;?></li>
+                    <li><?php echo $row->objective_list2;?></li>
+                    <li><?php echo $row->objective_list3;?></li>
+                    <li><?php echo $row->objective_list4;?></li>
                   </ol>
 
                  </div>
                </div>
              </div>
+					<?php endforeach; ?>
            </div>
          </div><!-- Blog -->
          <div id="gallery" class="tab-pane fade in">
@@ -77,20 +69,21 @@
          <!--Mission-->
           <div id="mission" class="tab-pane fade in">
 						<div class="search-result">
+					<?php foreach ($mission as $row):?>
 							<div class="row">
 								<div class="col-md-4">
 									<a  class="search-image" href="#" title="">
-										<img src="<?php echo base_url();?>assets/images/search-post.jpg" alt="" />
+										<img src="<?php echo base_url();?>uploads/<?php echo $row->mission_image;?>" alt="" />
 									</a>
 								</div>
 								<div class="col-md-8">
 									<div class="search-detail">
 									<h3> Our <span> MISSION: </span></h3>
-										<p> To empower teen girls and young women around the world to take an active role in their
-                    education their own health care, including sexual wellness, development, and emotional health.
+										<p> <?php echo $row->mission_article;?>
                    </div>
 								</div>
 							</div>
+					<?php endforeach;?>
 						</div>
 					</div><!-- mission -->
 					<div id="gallery" class="tab-pane fade in">
@@ -99,20 +92,21 @@
           <!---->
            <div id="vision" class="tab-pane fade in">
              <div class="search-result">
-
+          <?php foreach ($vision as $row):?>
                <div class="row">
                  <div class="col-md-4">
                    <a  class="search-image" href="#" title="">
-                     <img src="<?php echo base_url();?>assets/images/search-post.jpg" alt="" />
+                     <img src="<?php echo base_url();?>uploads/<?php echo $row->vision_image;?>" alt="" />
                    </a>
                  </div>
                  <div class="col-md-8">
                    <div class="search-detail">
                      <h3> Our <span> Vision: </span></h3>
-                     <p>By 2030, the teen birth rate in Kenya will decrease by 50%.</p>
+                     <p><?php echo $row->vision_article;?></p>
                    </div>
                  </div>
                </div>
+						<?php endforeach; ?>
              </div>
            </div><!-- mission -->
            <div id="gallery" class="tab-pane fade in">
@@ -120,7 +114,7 @@
 				</div>
 			</div>
 
-			<div class="sidebar col-md-3 pull-right">				
+			<div class="sidebar col-md-3 pull-right">
 				<div class="sidebar-widget">
 					<div class="sidebar-title">
 						<h4>Popular <span>Posts</span></h4>
