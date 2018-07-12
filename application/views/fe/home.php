@@ -285,48 +285,22 @@
 				</div>
 				<div class="charity-events">
 					<div class="row">
+				<?php foreach ($posts as $row):?>
 						<div class="col-md-4">
-							<div class="charity-event">
-								<div class="charity-event-img">
-									<img src="<?php echo base_url();?>assets/images/charity-event1.jpg" alt="" />
-									<a href="#" title="">Read More</a>
-								</div>
-								<div class="charity-event-detail">
-									<i><strong>JUNE</strong> 14, 2015</i>
-									<h3><a href="#" title="">Feeding The Hungary</a></h3>
-									<span><i class="icon-map-marker"></i> #8901 Marmora Road Chi Minh Vietnam</span>
-									<p>Amet atque aut autem consectetur consequu um enim erro inventor estiae nostrum.</p>
-								</div>
-							</div><!-- Charity Event -->
+								<div class="charity-event">
+									<div class="charity-event-img">
+										<img src="<?php echo base_url();?>uploads/<?php echo $row->blog_image;?>" alt="" />
+										<a href="#" title="">Read More</a>
+									</div>
+									<div class="charity-event-detail">
+										<i><strong><?php echo $row->blog_date;?></strong><?php echo $row->blog_time;?></i>
+										<h3><a href="#" title=""><?php echo $row->blog_title;?></a></h3>
+										<span><i class="icon-map-marker"></i> <?php echo $row->blog_location;?></span>
+										<p><?php echo word_limiter($row->blog_content,10);?></p>
+									</div>
+								</div><!-- Charity Event -->
 						</div>
-						<div class="col-md-4">
-							<div class="charity-event">
-								<div class="charity-event-img">
-									<img src="<?php echo base_url();?>assets/images/charity-event2.jpg" alt="" />
-									<a href="#" title="">Read More</a>
-								</div>
-								<div class="charity-event-detail">
-									<i><strong>JUNE</strong> 14, 2015</i>
-									<h3><a href="#" title="">Countries Most Billionair</a></h3>
-									<span><i class="icon-map-marker"></i> #8901 Marmora Road Chi Minh Vietnam</span>
-									<p>Amet atque aut autem consectetur consequu um enim erro inventor estiae nostrum.</p>
-								</div>
-							</div><!-- Charity Event -->
-						</div>
-						<div class="col-md-4">
-							<div class="charity-event">
-								<div class="charity-event-img">
-									<img src="<?php echo base_url();?>assets/images/charity-event3.jpg" alt="" />
-									<a href="#" title="">Read More</a>
-								</div>
-								<div class="charity-event-detail">
-									<i><strong>JUNE</strong> 14, 2015</i>
-									<h3><a href="#" title="">Oceans: Turning Tide</a></h3>
-									<span><i class="icon-map-marker"></i> #8901 Marmora Road Chi Minh Vietnam</span>
-									<p>Amet atque aut autem consectetur consequu um enim erro inventor estiae nostrum.</p>
-								</div>
-							</div><!-- Charity Event -->
-						</div>
+					<?php endforeach; ?>
 					</div>
 				</div><!-- Charity Events -->
 			</div>

@@ -11,5 +11,9 @@
           $query = $this->db->get('blog');
           return $query->result();
        }
-
+       function get_homeblog(){
+         $this->db->order_by("no","desc");
+         $query = $this->db->get('blog',3);
+         return $query->result();
+      }
       }
