@@ -16,11 +16,12 @@
          $query = $this->db->get('blog',3);
          return $query->result();
       }
-      function get_projects(){
-        $this->db->order_by("id","desc");
-        $query = $this->db->get('project');
-        return $query->result();
-     }
+      function get_projects($project_id){
+        $this->db->from('project');
+           $this->db->where(array('project_id'=>$project_id));
+           return $this->db->get()->result();
+        }
+
      function get_projectlist(){
        $this->db->order_by("id","desc");
        $query = $this->db->get('project');
