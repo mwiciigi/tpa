@@ -81,11 +81,11 @@
 					<input class="form-control" type="email" placeholder="Email" />
 				</div>
 				<ul class="social-bar">
-					<li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#" title=""><i class="fa fa-skype"></i></a></li>
-					<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+					<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/rss.jpg"></a></li>
+					<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/facebook.jpg"></a></li>
+					<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/gplus.jpg"></a></li>
+					<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/linked-in.jpg"></a></li>
+					<li><a title="" href="#"><img alt="" src="<?php echo base_url();?>assets/images/pinterest.jpg"></a></li>
 				</ul>
 				<div class="newsletter-btn">
 					<input type="button" value="Submit" />

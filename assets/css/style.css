@@ -62,7 +62,7 @@ body,ul,h1,h2,h3,h4,h5,h6{
 	margin:0;
 	padding:0;
 	list-style:none;
-	letter-spacing:0.2px;
+	letter-spacing:0.5px;
 }
 .theme-layout {
     float: left;
@@ -109,8 +109,8 @@ section .container,
     margin-right:73px;
     padding:12px 0 12px;
 	color:#9d9b9b;
-    font-family:'Roboto',sans-serif;
-    font-size:10px;
+   font-family: 'Didact Gothic', sans-serif;
+    font-size:11px;
     list-style:none outside none;
 }
 #top-bar li:last-child{
@@ -133,7 +133,7 @@ section .container,
 	color:#666565;
     text-align:right;
 	border:none;
-    font-family:'Roboto',sans-serif;
+   font-family: 'Didact Gothic', sans-serif;
 	font-size:10px;
 	background-color:transparent;
 	border-right:1px solid #b0afaf;
@@ -191,7 +191,7 @@ header {
 }
 .logo h1 {
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:36px;
     font-weight:600;
     letter-spacing:-0.25px;
@@ -247,7 +247,7 @@ header {
 #menu-navigation li a {
     float:left;
     padding:36px 22px;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:14px;
     font-weight:400;
 	color:#3D3D3D;
@@ -372,7 +372,7 @@ header {
     width:100%;
 	padding:15px 25px;
     color:#1A1A1A;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
 }
 #menu-navigation li ul li a {
     width:100%;
@@ -380,7 +380,7 @@ header {
     border-bottom:1px solid #D3D3D3;
     color:#1A1A1A;
 	font-size:13px;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     line-height:14px;
 }
 .menu ul li ul li ul {
@@ -447,7 +447,7 @@ header {
 }
 .sec-heading h2 {
     color:#7c7c7c;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     font-weight:300;
     line-height:14px;
@@ -552,7 +552,7 @@ header {
 }
 .cause-heading h3 {
     padding:0 20px;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:15px;
     font-weight:500;
     line-height:12px;
@@ -562,7 +562,7 @@ header {
     margin:20px 0 0;
     padding:0 20px;
     color:#777777;
-    font-family:Open Sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     font-weight:600;
     line-height:10px;
@@ -605,7 +605,7 @@ header {
 .our-causes-hover h3 {
     margin-bottom:25px;
     color:#2d2d2d;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
 	line-height:10px;
     font-size:15px;
     font-weight:500;
@@ -614,7 +614,7 @@ header {
     width:100%;
     color:#2d2d2d;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:11px;
     margin-bottom:30px;
@@ -629,7 +629,7 @@ header {
     margin-bottom:35px;
     margin-top:-7px;
     color:#2D2D2D;
-    font-family:Open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:13px;
     line-height:20px;
 }
@@ -681,7 +681,7 @@ header {
 }
 .donate-us-box h5 {
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:17px;
     font-weight:500;
     line-height:18px;
@@ -694,7 +694,7 @@ header {
     width:100%;
     display:block;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:10px;
     text-align:center;
@@ -704,7 +704,7 @@ header {
     margin:10px 0 20px;
     padding:9px 20px;
     display:block;
-    font-family:Open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:16px;
     line-height:14px;
     text-align:center;
@@ -720,7 +720,7 @@ header {
     float:left;
 	margin-bottom:28px;
 	margin-top:5px;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:17px;
     color:#FFFFFF;
     font-weight:400;
@@ -856,7 +856,7 @@ header {
     float:left;
 	margin-left:10px;
     color:#414040;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:15px;
     position:relative;
     top:75px;
@@ -866,7 +866,7 @@ header {
     margin-left:5px;
     color:#FFFFFF;
     display:block;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
 	font-weight:500;
     position:relative;
     top:75px;
@@ -932,7 +932,7 @@ header {
     float:left;
 	height:20px;
 	color:#606060;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     margin-top:7px;
 }
@@ -1036,7 +1036,7 @@ header {
 }
 .project-detail p {
     color:#818181;
-    font-family:Open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     letter-spacing:0.2px;
 }
@@ -1055,7 +1055,7 @@ header {
     height:100%;
     padding:10px;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:10px;
     font-weight:bold;
     position:absolute;
@@ -1132,7 +1132,7 @@ header {
 }
 .donate-us > h3 {
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:14px;
     text-align:center;
     text-transform:uppercase;
@@ -1141,7 +1141,7 @@ header {
     float:left;
     width:100%;
     color:#FFFFFF;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     line-height:10px;
     margin-top:10px;
@@ -1155,7 +1155,7 @@ header {
 .collected > p {
     color:#FFFFFF;
     display:block;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     line-height:10px;
     margin:0 0 10px;
@@ -1163,7 +1163,7 @@ header {
 .collected > span {
     color:#FFFFFF;
     display:table;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     line-height:12px;
     margin:0 auto;
     padding:6px 20px;
@@ -1195,7 +1195,7 @@ header {
 	);
     color:#666666;
     display:table;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:10px;
     line-height:10px;
     margin:0 auto;
@@ -1240,7 +1240,7 @@ header {
     background:none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
     padding:10px 20px;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:10px;
     position:absolute;
@@ -1304,7 +1304,7 @@ header {
     width:100%;
     margin:0 0 15px;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:24px;
     font-weight:300;
     line-height:24px;
@@ -1314,7 +1314,7 @@ header {
     width:480px;
     color:#F8F6F6;
 	margin-bottom:0;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:13px;
     margin-left:102px;
@@ -1323,7 +1323,7 @@ header {
     padding:12px 60px;
 	margin-top:-20px;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     position:absolute;
     right:0;
@@ -1460,7 +1460,7 @@ header {
     margin-bottom:20px;
     margin-top:-5px;
     color:#777777;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     letter-spacing:0.2px;
     line-height:20px;
@@ -1468,7 +1468,7 @@ header {
 .story > h6 {
     color:#ADACAC;
 	float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     line-height:15px;
 	position:relative;
@@ -1489,7 +1489,7 @@ header {
     padding-left:20px;
     border-left:1px dotted #E5E5E5;
     color:#7c7c7c;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     line-height:30px;
 }
@@ -1627,7 +1627,7 @@ header {
 .recent-event > ul {
     float:left;
     width:100%;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
 }
 .recent-event li {
@@ -1669,7 +1669,7 @@ header {
 .recent-event.previous-event > ul {
     float:left;
     width:150px;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     margin-left:10px;
 }
@@ -1698,7 +1698,7 @@ header {
 }
 .amount p {
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:10px;
     text-align:center;
@@ -1708,7 +1708,7 @@ header {
     padding:5px 18px;
     color:#FFFFFF;
     display:table;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:16px;
     background:none repeat scroll 0 0 #8C8C8C;
 
@@ -1743,7 +1743,7 @@ header {
 	display:table;
 	background:#98d460;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     font-weight:600;
     text-align:center;
@@ -1781,7 +1781,7 @@ header {
 .sec-title h2 {
     float:left;
     padding-left:15px;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:32px;
     font-weight:500;
     line-height:42px;
@@ -1834,7 +1834,7 @@ header {
 .meta > span {
     color:#DBDBDB;
     display:block;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     line-height:12px;
 }
 .meta span i {
@@ -1872,7 +1872,7 @@ header {
     margin:0 auto;
     line-height:57px;
     color:#ADACAC;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:58px;
     position:relative;
 }
@@ -1883,7 +1883,7 @@ header {
 }
 .needed-amount > h5 span {
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     font-weight:normal;
     line-height:12px;
@@ -1895,7 +1895,7 @@ header {
     float:left;
     width:73%;
     color:#818181;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:13px;
     line-height:22px;
     margin-bottom:0;
@@ -2110,7 +2110,7 @@ header {
 .message-box-title > p {
     float:left;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:34px;
     margin-bottom:0;
@@ -2133,7 +2133,7 @@ header {
 }
 .message-form > p {
     color:#A7A6A6;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     margin-bottom:20px;
 }
@@ -2142,7 +2142,7 @@ header {
     background:none repeat scroll 0 0 #F6F6F6;
     border:0 none;
     color:#A5A5A5;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:11px;
     font-weight:bold;
     margin-bottom:12px;
@@ -2159,7 +2159,7 @@ header {
     background:none repeat scroll 0 0 #F6F6F6;
     border:0 none;
     color:#A5A5A5;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:11px;
     font-weight:bold;
     margin-bottom:12px;
@@ -2176,7 +2176,7 @@ header {
     border:0 none;
     color:#FFFFFF;
     float:right;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:11px;
     font-weight:600;
     line-height:10px;
@@ -2228,7 +2228,7 @@ header {
 }
 .event-intro > a {
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     margin-bottom:2px;
     margin-right:30px;
@@ -2263,14 +2263,14 @@ header {
 }
 .countdown li span {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 25px;
     line-height: 22px;
     width: 100%;
 }
 .countdown li p {
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 9px;
     line-height: 13px;
     margin: 2px 0 0;
@@ -2286,7 +2286,7 @@ header {
     margin-right:-15px;
 }
 .desc > h3 {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     font-weight:normal;
 }
@@ -2298,7 +2298,7 @@ header {
 }
 .desc > p {
     color:#818181;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     line-height:20px;
     margin-top:20px;
@@ -2416,7 +2416,7 @@ footer .container {
 .footer-widget-title h4 {
     color:#FFFFFF;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     font-weight:300;
     letter-spacing:0.2px;
@@ -2493,7 +2493,7 @@ footer .container {
     margin-bottom:0;
     border-left:1px solid #6F6F6F;
     color:#969595;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     letter-spacing:0.2px;
     line-height:24px;
@@ -2538,13 +2538,13 @@ footer .container {
 }
 .from {
     color:#767575;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 	float:left;
 }
 .from h6 {
 	color:#cccccc;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-weight:800;
     text-transform:uppercase;
 	margin-bottom:6px;
@@ -2608,7 +2608,7 @@ footer .container {
     float:left;
     width:100%;
     color:#CCCCCC;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     font-weight:600;
     line-height:12px;
@@ -2621,7 +2621,7 @@ footer .container {
     float:left;
     width:100%;
     color:#969595;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     margin-bottom:25px;
 }
@@ -2640,13 +2640,13 @@ footer .container {
 .newsletter > h4 {
 	float:left;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
 }
 .newsletter > h4 {
     color:#FFFFFF;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     line-height:16px;
     margin-bottom:30px;
@@ -2656,7 +2656,7 @@ footer .container {
     margin-bottom:25px;
     margin-top:-5px;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 }
 .newsletter input,
@@ -2665,7 +2665,7 @@ footer .container {
     margin-bottom:20px;
     border:0 none;
     color:#323131;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     line-height:10px;
     background:none repeat scroll 0 0 rgba(255, 255, 255, 0.66);
@@ -2721,7 +2721,7 @@ footer .container {
     width:80%;
     border:1px solid #C1E4A1;
     color:#323131;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     margin:0 auto;
     padding:10px;
@@ -2756,14 +2756,14 @@ footer .container {
 .footer-bottom p {
     color:#969595;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:14px;
     margin:0;
 }
 .footer-bottom p span {
     color:#fff;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 }
 .footer-bottom ul {
@@ -2775,7 +2775,7 @@ footer .container {
 }
 .footer-bottom a {
     color:#969595;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 }
 .footer-bottom a:hover {
@@ -2785,7 +2785,7 @@ footer .container {
 //////////////////////////////////////////////////// ***/
 .top-image {
     float:left;
-    height:285px;
+    height:155px;
     width:100%;
 }
 .top-image > img {
@@ -2807,7 +2807,7 @@ footer .container {
     padding:20px 60px;
     color:#2D2D2D;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:30px;
     font-weight:500;
     line-height:23px;
@@ -2853,7 +2853,7 @@ footer .container {
     border-style:solid;
     border-width:2px 1px 1px;
     color:#8A8989;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:10px;
 
@@ -2872,7 +2872,7 @@ footer .container {
     border-style:solid;
     border-width:2px 1px 1px;
     color:#fff;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:10px;
     padding:10px 40px;
@@ -2884,7 +2884,7 @@ footer .container {
 }
 .search-result h3 {
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     line-height:13px;
     margin-bottom:30px;
@@ -2941,7 +2941,7 @@ footer .container {
 }
 .search-detail > h4 {
     color:#97D360;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:22px;
     font-weight:300;
     letter-spacing:0.3px;
@@ -2955,18 +2955,19 @@ footer .container {
     color:#2d2d2d;
 }
 .search-detail > p {
-    color:#858585;
-    font-family:open sans;
-    font-size:12px;
-    letter-spacing:0.2px;
-    line-height:20px;
+  color: #888888;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
+  margin: 10px 0;
+  letter-spacing: 0.9px;
+  word-spacing: 1px;
     margin-top:20px;
 }
 /*** SEARCH RESULT NOT FOUND /////////
 ///////////////////////////////// ***/
 .search-result > p {
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:11px;
     margin:0;
@@ -3006,7 +3007,7 @@ footer .container {
     background:none repeat scroll 0 0 transparent;
     border:0 none;
     color:#454545;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:10px;
     padding:0;
@@ -3072,7 +3073,7 @@ footer .container {
 .gallery-image > span {
     bottom:0;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     left:0;
     line-height:10px;
@@ -3108,7 +3109,7 @@ footer .container {
     width:100%;
     padding:20px;
     background:none repeat scroll 0 0 #FBFAFA;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:14px;
     font-weight:500;
     line-height:10px;
@@ -3236,14 +3237,14 @@ footer .container {
     text-align:center;
 }
 .error-page h2 {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:225px;
     line-height:180px;
     margin-bottom:48px;
 }
 .error-page > p {
     color:#C3C3C3;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:36px;
     font-style:italic;
     font-weight:bold;
@@ -3269,7 +3270,7 @@ footer .container {
 }
 .error-page-search h3 {
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     font-weight:500;
     line-height:18px;
@@ -3278,13 +3279,13 @@ footer .container {
 }
 .error-page-search p {
     color:#848484;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:12px;
     margin-bottom:30px;
 }
 .error-page-search a {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:11px;
 	padding:5px 20px 5px 0;
@@ -3302,7 +3303,7 @@ footer .container {
 }
 .about-charity-desc h2 {
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     font-weight:400;
     letter-spacing:0.2px;
@@ -3315,7 +3316,7 @@ footer .container {
 }
 .about-charity-desc > p {
     color:#818181;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:13px;
     line-height:22px;
     margin-top:20px;
@@ -3335,7 +3336,7 @@ footer .container {
 .about-charity-desc li h6 {
     margin-bottom:10px;
     padding:0 10px;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:30px;
     font-weight:300;
     line-height:23px;
@@ -3345,7 +3346,7 @@ footer .container {
 	width:100%;
     padding:0 13px;
     color:#CCCBCB;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:10px;
     text-transform:uppercase;
 }
@@ -3480,14 +3481,14 @@ footer .container {
 .member-intro h3 {
     margin-bottom:10px;
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:15px;
     line-height:13px;
 }
 .member-intro > span {
     float:left;
     width:100%;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     line-height:10px;
     text-transform:uppercase;
@@ -3546,7 +3547,7 @@ footer .container {
     border-bottom:1px solid #E8E8E7;
 }
 .blog-post h2 {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:22px;
     font-weight:400;
     letter-spacing:0.3px;
@@ -3649,9 +3650,13 @@ footer .container {
 	margin-bottom:0;
 }
 .post-meta > li a{
-    color:#969696;
-    font-family:roboto;
-    font-size:12px;
+  color: #636367;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 13px;
+  color: #383737;
+  margin: 10px 0;
+  letter-spacing: 0.9px;
+  word-spacing: 1px;
 }
 .post-meta > li a span{
     color:#7c7c7c465;
@@ -3666,11 +3671,13 @@ footer .container {
 	position:relative;
 }
 .post-desc > p {
-    color:#858585;
-    font-family:open sans;
-    font-size:13px;
-    line-height:22px;
-    margin:10px 0;
+    color: #383737;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    margin: 10px 0;
+    letter-spacing: 0.6px;
+    word-spacing: 0.6px;
 }
 .post-desc .image-lists {
     float:right;
@@ -3720,7 +3727,7 @@ footer .container {
     float:right;
     padding-left:10px;
     color:#858585;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:11px;
     line-height:30px;
     background:none repeat scroll 0 0 #FFFFFF;
@@ -3743,7 +3750,7 @@ footer .container {
     margin-bottom:20px;
     line-height:10px;
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     letter-spacing:0.3px;
 }
@@ -3753,7 +3760,7 @@ footer .container {
 .post h1 {
     color: #707070;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 35px;
@@ -3764,7 +3771,7 @@ footer .container {
 	float:left;
     font-size:12px;
     color:#858585;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     line-height:22px;
     margin:10px 0;
 }
@@ -3830,7 +3837,7 @@ footer .container {
 }
 h3.sub-head {
     color:#2D2D2D;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     font-weight:400;
     line-height:17px;
@@ -3878,14 +3885,14 @@ h3.sub-head span{
 }
 .comments li  .comment h5 {
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     margin-bottom:15px;
 }
 .comments li  .comment i {
     color:#929292;
     display:block;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     line-height:9px;
     margin-bottom:15px;
@@ -3937,7 +3944,7 @@ h3.sub-head span{
 	border-right:1px solid #eceaea;
 	border-bottom:1px solid #eceaea;
     color:#828282;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     padding:4px 12px;
     position:absolute;
@@ -3973,7 +3980,7 @@ h3.sub-head span{
 }
 .form form label {
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     font-weight:normal;
     line-height:10px;
@@ -3988,7 +3995,7 @@ h3.sub-head span{
     height:33px;
     border:0 none;
     margin-bottom:20px;
-	font-family:open sans;
+	font-family: 'Didact Gothic', sans-serif;
 	font-size:12px;
     background:none repeat scroll 0 0 #FAFAFA;
     -webkit-box-shadow:1px 1px 3px #D5D5D5 inset;
@@ -4125,7 +4132,7 @@ textarea.input-field:focus{
     float:left;
     width:100%;
     color:#ADACAC;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     font-weight:500;
     line-height:15px;
@@ -4137,7 +4144,7 @@ textarea.input-field:focus{
     padding:7px 15px;
     color:#FFFFFF;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 
     -webkit-border-radius:4px;
@@ -4167,7 +4174,7 @@ textarea.input-field:focus{
 }
 .contact-info > p {
     color:#818181;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:13px;
     line-height:22px;
     margin-top:20px;
@@ -4197,7 +4204,7 @@ textarea.input-field:focus{
     width:50%;
     color:#707070;
     margin:40px 0;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:30px;
     font-weight:600;
     line-height:23px;
@@ -4225,7 +4232,7 @@ textarea.input-field:focus{
 }
 .working > p {
     color:#818181;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:13px;
     margin-top:20px;
 }
@@ -4331,7 +4338,7 @@ textarea.input-field:focus{
     margin-bottom:30px;
 }
 .event-post-detail h2 {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     font-weight:400;
     margin-top:20px;
@@ -4353,7 +4360,7 @@ textarea.input-field:focus{
 .event-post-detail > p {
     color:#858585;
     float:left;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     letter-spacing:0.2px;
     line-height:20px;
@@ -4416,7 +4423,7 @@ textarea.input-field:focus{
     border-bottom:1px solid #D1D7DC;
     border-right:0 none;
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     font-weight:400;
     line-height:10px;
@@ -4459,7 +4466,7 @@ textarea.input-field:focus{
 }
 .theme-tabs p {
     color:#858585;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     line-height:24px;
     margin:0;
@@ -4512,7 +4519,7 @@ textarea.input-field:focus{
 .side-tabs .nav li a:focus {
     background: none repeat scroll 0 0 #FCFAFA;
     color: #707070;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     margin: 0;
 
@@ -4534,7 +4541,7 @@ textarea.input-field:focus{
 }
 .side-tabs .tab-content p {
     color: #858585;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 0;
@@ -4584,7 +4591,7 @@ blockquote i {
     float:left;
     border-top:2px solid #dbdbdb;
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:40px;
     overflow:hidden;
@@ -4624,14 +4631,14 @@ blockquote i {
     margin:10px 0;
     padding:0 20px 0 60px;
     color:#929292;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     line-height:22px;
 }
 /*** LISTS ***/
 .theme-list li {
     color:#858585;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     font-weight:400;
     line-height:28px;
@@ -4915,7 +4922,7 @@ blockquote i {
 }
 .aligned h5 {
     color: #5D5D5D;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -4934,7 +4941,7 @@ blockquote i {
 .progress-report > h6 {
     color: #707070;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: 400;
 	line-height:30px;
@@ -4942,7 +4949,7 @@ blockquote i {
 .progress-report > span {
     color: #707070;
     float: right;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: 600;
     margin-right: 40px;
@@ -5000,7 +5007,7 @@ blockquote i {
 }
 .progress-bar span {
     color: #FFFFFF;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     position: absolute;
     right: 15px;
@@ -5061,7 +5068,7 @@ blockquote i {
 	transition:all 0.4s ease 0s;
 }
 .table-head > h3 {
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 16px;
@@ -5070,7 +5077,7 @@ blockquote i {
 .table-head > span {
     color: #FFF3F3;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     line-height: 12px;
     width: 100%;
@@ -5088,7 +5095,7 @@ blockquote i {
     border-top: 1px solid #E7E7E7;
     color: #828282;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     line-height: 10px;
     padding: 20px 20px 20px 50px;
@@ -5104,7 +5111,7 @@ blockquote i {
 .price-table li.price-per-year {
     background: url("../images/pattern2.png") repeat scroll 0 0 / 31% auto #E9E9E9;
     border-top: 1px solid #FFFFFF;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 26px;
     font-weight: bold;
     line-height: 20px;
@@ -5119,7 +5126,7 @@ blockquote i {
 }
 .price-per-year > span {
     color: #6A6A6A;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     font-weight: normal;
 }
@@ -5131,7 +5138,7 @@ blockquote i {
     border: 1px solid #686868;
     color: #FFFFFF;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight: 600;
     padding: 12px 10px;
     text-align: center;
@@ -5179,7 +5186,7 @@ blockquote i {
 .element .alert-box > h4 {
     float:left;
     width:auto;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:14px;
     font-weight:600;
     letter-spacing:0.2px;
@@ -5213,7 +5220,7 @@ blockquote i {
 /*** HIGHLIGHTED TEXT ***/
 .highlight {
     color:#858585;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
     letter-spacing:0.2px;
     line-height:22px;
@@ -5362,12 +5369,12 @@ blockquote i {
     width:100%;
     margin:10px 0;
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:18px;
 }
 .element p {
     color:#828282;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:12px;
 	line-height:22px;
 }
@@ -5406,7 +5413,7 @@ blockquote i {
     float:left;
     padding:24px 0 20px;
     color:#5B5B5B;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     font-weight:500;
     line-height:12px;
@@ -5475,7 +5482,7 @@ blockquote i {
 }
 .cart-table li > div h6 {
     color:#555555;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:25px;
     text-align:center;
@@ -5507,7 +5514,7 @@ select{
     float:left;
     width:100% !important;
 	height:100%;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     padding:9px 30px 9px 10px;
     background:url("../images/select-box-btn.jpg") no-repeat scroll right 0 transparent;
@@ -5523,7 +5530,7 @@ select{
     margin-right:20px;
     padding:5px 10px;
     border:1px solid #C6DADE;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 
     -webkit-border-radius:4px;
@@ -5537,7 +5544,7 @@ select{
 	margin:0 4px;
     border:1px solid #D7AFAF;
     color:#FFFFFF;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 
     -webkit-border-radius:4px;
@@ -5563,7 +5570,7 @@ select{
     margin:0;
 	padding-left:20px;
     color:#5B5B5B;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     font-weight:500;
 }
@@ -5590,7 +5597,7 @@ select{
     margin-right:20px;
     padding:5px 10px;
     border:1px solid #C6DADE;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 	color:#EBEBEB;
 
@@ -5623,7 +5630,7 @@ select{
 .payment ul li label {
     color:#929292;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:14px;
     font-weight:normal;
     margin-left:10px;
@@ -5634,7 +5641,7 @@ select{
     padding:10px;
     margin-top:10px;
     color:#F7F7F7;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     position:relative;
     background:none repeat scroll 0 0 #757575;
@@ -5685,7 +5692,7 @@ select{
 }
 .featured-products > p {
     color:#777777;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:13px;
     line-height:20px;
     margin-bottom:30px;
@@ -5704,7 +5711,7 @@ select{
 }
 .featured-products .col-md-4 > h4 {
     color:#707070;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:16px;
     font-weight:400;
     margin-bottom:10px;
@@ -5718,7 +5725,7 @@ select{
 .product-price > span {
     color: #CCCBCB;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     font-weight: bold;
     line-height: 10px;
@@ -5735,7 +5742,7 @@ select{
     background: none repeat scroll 0 0 #626262;
     color: #F4F4F4;
     float: right;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     padding: 5px 10px;
 
@@ -5781,7 +5788,7 @@ select{
 }
 .login p {
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
 }
 .col-md-12.co-form {
@@ -5791,7 +5798,7 @@ select{
 .co-form label {
 	display:block;
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     font-weight:normal;
     line-height:11px;
@@ -5826,7 +5833,7 @@ select{
     background:none repeat scroll 0 0 transparent;
     border:0 none;
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:14px;
     line-height:18px;
 	position:relative;
@@ -5866,7 +5873,7 @@ select{
 }
 .account-form > p {
     color:#929292;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:20px;
 }
@@ -5915,7 +5922,7 @@ select{
 }
 .order-reveived > p {
     color:#696868;
-    font-family:Roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     line-height:17px;
     margin:0;
@@ -5923,12 +5930,12 @@ select{
     text-align:center;
 }
 .order-reveived p strong {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
 }
 .order-reveived a {
     display: table;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 11px;
     margin: 0 auto;
@@ -5968,7 +5975,7 @@ select{
     padding:10px;
     border:0 none;
     color:#D2D2D2;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     -webkit-box-shadow:none;
     -moz-box-shadow:none;
@@ -6001,7 +6008,7 @@ select{
     float:left;
     padding-left:15px;
     color:#2D2D2D;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:20px;
     font-weight:400;
     line-height:26px;
@@ -6059,7 +6066,7 @@ select{
 	bottom:0;
 }
 .popular-post-title h6 {
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     margin-bottom:15px;
     text-align:center;
@@ -6070,7 +6077,7 @@ select{
 .popular-post-title > span {
     color:#C8C8C8;
     float:left;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:10px;
     font-weight:600;
     line-height:10px;
@@ -6097,7 +6104,7 @@ select{
 	);
     color:#959595;
     float:left;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:11px;
     margin:5px;
     padding:7px 14px;
@@ -6126,7 +6133,7 @@ select{
     width:100%;
     padding:15px 20px 15px 60px;
     color:#959595;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:12px;
     line-height:18px;
     background:url("../images/list-arrow.png") no-repeat scroll 34px center #FCFCFB;
@@ -6192,7 +6199,7 @@ select{
 .sidebar-video > h6 {
     width:100%;
     color:#F5F5F5;
-    font-family:roboto;
+    font-family: 'Lato', sans-serif;
     font-size:13px;
     text-align:center;
 	z-index:1;
@@ -6425,7 +6432,7 @@ h5.slide3 span{
     border-bottom:1px double #f4f4f4;
     color:#3D3C3C;
     display:inline-block;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight:600;
     margin:0px 0 20px 0;
     position:relative;
@@ -6496,7 +6503,7 @@ h5.slide3 span{
     margin:5px 0;
     border:1px solid #7c7c7c;
     color:#E0DFDF;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size:11px;
     font-weight:600;
     text-align:center;
@@ -6551,7 +6558,7 @@ h5.slide3 span{
     height:20px;
     width:175px;
     color:#656565;
-    font-family:open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight:600;
     position:absolute;
     left:-74px;
@@ -6615,7 +6622,7 @@ h5.slide3 span{
     float: left;
     border: 1px solid #D1D7DC;
     color: #656565;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     font-weight: 700;
     margin-left: 20px;
@@ -6730,14 +6737,14 @@ h5.slide3 span{
 	transition:all 0.4s ease 0s;
 }
 .port-desc > h4 {
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     line-height: 14px;
     margin-bottom: 30px;
 }
 .port-desc > p {
     color: #6D6C6C;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 0;
@@ -6905,7 +6912,7 @@ h5.slide3 span{
 .box > h4 {
     color: #F4F4F4;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: normal;
     line-height: 11px;
@@ -7017,7 +7024,7 @@ h5.slide3 span{
 .carou-post > h4 {
     color: #FCFCFC;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     padding: 10px 20px;
 }
@@ -7025,7 +7032,7 @@ h5.slide3 span{
     color: #7B7B7B;
     display: block;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     margin: 20px 0;
     padding: 0 22px;
@@ -7034,7 +7041,7 @@ h5.slide3 span{
     background: none repeat scroll 0 0 #525252;
     color: #FCFCFC;
     float: right;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     line-height: 12px;
     margin-bottom: 10px;
     padding: 5px 20px;
@@ -7117,7 +7124,7 @@ h5.slide3 span{
 .item-detail > h3 {
     color: #FFFFFF;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 24px;
 	width:70%;
 	line-height:50px;
@@ -7125,7 +7132,7 @@ h5.slide3 span{
 .item-detail > span {
     color: #FFFFFF;
     float: right;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 25px;
     width: 30%;
 }
@@ -7135,7 +7142,7 @@ h5.slide3 span{
 }
 .item-detail i {
     color: #CCCBCC;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-style: normal;
     margin-right: 20px;
@@ -7145,7 +7152,7 @@ h5.slide3 span{
     border-radius: 2px;
     color: #FFFFFF;
     float: right;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     line-height: 10px;
     padding: 10px;
     text-align: center;
@@ -7184,7 +7191,7 @@ h5.slide3 span{
 }
 .donate-message > h5 {
     color: #4F4E4E;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: bold;
     line-height: 13px;
@@ -7192,7 +7199,7 @@ h5.slide3 span{
 }
 .donate-message > p {
     color: #717171;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     margin-bottom: 0;
     margin-top: 20px;
@@ -7203,7 +7210,7 @@ h5.slide3 span{
     border-radius: 0 10px;
     color: #FFFFFF;
     float: right;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     line-height: 10px;
     padding: 10px;
@@ -7216,14 +7223,14 @@ h5.slide3 span{
 	width:100%;
 }
 .upcoming-event > h5 {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin: 15px 0;
 }
 .upcoming-event li {
     border: 1px solid #EEEDED;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     line-height: 15px;
     margin-bottom: 2px;
     padding: 5px 20px;
@@ -7361,7 +7368,7 @@ h5.slide3 span{
 }
 .profile-page h1 {
     color: #707070;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: bold;
     line-height: 10px;
@@ -7372,7 +7379,7 @@ h5.slide3 span{
 }
 .designation {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 10px;
@@ -7403,7 +7410,7 @@ h5.slide3 span{
 .profile-info li span {
     color: #646464;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 10px;
@@ -7418,7 +7425,7 @@ h5.slide3 span{
     float: left;
     width: 50%;
 	margin-bottom:0;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: 400;
 	color:#9a9a9a;
@@ -7427,7 +7434,7 @@ h5.slide3 span{
 .profile-page p {
     color: #818181;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     letter-spacing: 0.2px;
     line-height: 24px;
@@ -7444,7 +7451,7 @@ h5.slide3 span{
 }
 .join-team h2 {
     color: #5A5A59;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 22px;
     line-height: 17px;
     margin-bottom: 20px;
@@ -7453,7 +7460,7 @@ h5.slide3 span{
 .join-team a {
     color: #FFFFFF;
     display: table;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 13px;
     margin: 0 auto;
@@ -7495,7 +7502,7 @@ h5.slide3 span{
     color: #707070;
     float: left;
 	margin-bottom:20px;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     letter-spacing: 0.3px;
     padding-right: 20px;
@@ -7538,7 +7545,7 @@ h5.slide3 span{
 .event-detail > ul li {
     color: #909090;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 30px;
@@ -7566,7 +7573,7 @@ button.favorite-btn {
     background: none repeat scroll 0 0 padding-box #555555;
     border: 3px solid #E5E5E5;
     color: #FFFFFF;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 30px;
     padding: 5px 15px;
@@ -7602,7 +7609,7 @@ button.favorite-btn i {
     border: 0 none;
     color: #437182;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     height: 30px;
     text-align: center;
@@ -7757,7 +7764,7 @@ button.favorite-btn i {
 }
 .cause-box > h3 {
     color: #7C7C7C;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 26px;
     line-height: 35px;
     overflow: hidden;
@@ -7768,7 +7775,7 @@ button.favorite-btn i {
 .cause-box > i {
     color: #B2B1B1;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     font-style: normal;
     line-height: 20px;
@@ -7818,7 +7825,7 @@ button.favorite-btn i {
 }
 .cause-box > h4 {
     color: #666666;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: 0.3px;
@@ -7863,7 +7870,7 @@ button.favorite-btn i {
     float: left;
     margin-right: 10px;
     padding: 10px 25px;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: 500;
 
@@ -7899,7 +7906,7 @@ button.favorite-btn i {
     border-radius: 50%;
     color: #4F4F4F;
     content: "OR";
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight: 800;
     height: 40px;
     left: 50%;
@@ -7913,7 +7920,7 @@ button.favorite-btn i {
 .other-amount > input {
     border: 1px solid #D8D8D8;
     color: #cccccc;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
 	float:left;
     height: 40px;
@@ -7937,7 +7944,7 @@ button.favorite-btn i {
     height: 40px;
     width: 180px;
     color: #FFFFFF;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight: 700;
     line-height: 40px;
     margin-left: 10px;
@@ -7988,7 +7995,7 @@ button.favorite-btn i {
 }
 .single-service > p {
     color: #858585;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     letter-spacing: 0.4px;
     line-height: 30px;
@@ -7996,7 +8003,7 @@ button.favorite-btn i {
 }
 .single-service h2 {
     color: #707070;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 22px;
     padding: 20px 0 0;
 }
@@ -8007,14 +8014,14 @@ button.favorite-btn i {
 }
 .benifits > h4 {
     color: #6F6F6F;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 18px;
     letter-spacing: 0.3px;
     margin-bottom: 20px;
 }
 .benifits > ul {
     color: #858585;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     line-height: 30px;
 }
@@ -8114,7 +8121,7 @@ button.favorite-btn i {
 }
 .ongoing-project-detail > h3 {
     color: #4F4E4E;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.25px;
@@ -8126,7 +8133,7 @@ button.favorite-btn i {
 }
 .ongoing-project-detail > p {
     color: #727272;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.25px;
@@ -8134,7 +8141,7 @@ button.favorite-btn i {
 .ongoing-project-detail > a {
     color: #727272;
     float: right;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     text-shadow: 0 0 1px #FFFFFF;
 }
 .ongoing-projects .flex-direction-nav {
@@ -8177,7 +8184,7 @@ button.favorite-btn i {
 }
 .issue > h4 {
     color: #4F4E4E;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding-right: 10px;
@@ -8210,7 +8217,7 @@ button.favorite-btn i {
 }
 .reviews > h3 {
     color: #FFFFFF;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 24px;
     text-transform: capitalize;
     font-weight: 400;
@@ -8272,7 +8279,7 @@ button.favorite-btn i {
 .news > h3 {
     color: #4F4E4E;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin: 12px 0;
@@ -8282,7 +8289,7 @@ button.favorite-btn i {
     color: #4F4E4E;
 }
 .news > p {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     color: #717171;
     letter-spacing: 0.25px;
     line-height: 22px;
@@ -8468,14 +8475,14 @@ button.favorite-btn i {
 }
 .full-title h2 {
     color: #fff;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 35px;
     font-weight: 800;
     margin-top: 10px;
     padding-bottom: 10px;
 }
 .full-title span {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 18px;
     color: #FFF;
     font-weight: 600;
@@ -8496,21 +8503,21 @@ button.favorite-btn i {
 }
 .short-desc > h4 {
     color: #fff;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 .short-desc > p {
     color: #fff;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     letter-spacing: 0.3px;
     line-height: 24px;
 }
 .short-desc > a {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     padding: 7px 20px;
     text-transform: uppercase;
@@ -8564,14 +8571,14 @@ button.favorite-btn i {
 }
 .mission > h4 {
     color: #3b3b3b;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 .mission p {
     color: #674244;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     letter-spacing: 0.3px;
     line-height: 30px;
@@ -8619,7 +8626,7 @@ button.favorite-btn i {
     z-index: -2;
 }
 h3.count {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 46px;
     font-weight: 700;
     line-height: 36px;
@@ -8627,7 +8634,7 @@ h3.count {
 }
 .counting > span {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     padding: 10px 10px 0;
     width: 100%;
@@ -8643,7 +8650,7 @@ h3.count {
 }
 .service > h4 {
     color: #0e0e0e;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -8657,7 +8664,7 @@ h3.count {
 }
 .service > p {
     color: #0e0e0e;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.3px;
@@ -8668,7 +8675,7 @@ h3.count {
     background: none repeat scroll 0 0 #00c3f4;
     color: #fff;
     display: inline-block;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 15px;
     font-weight: 600;
     margin-top: 20px;
@@ -8753,7 +8760,7 @@ h3.count {
 }
 .single-mission > p {
     color: #818181;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     letter-spacing: 0.2px;
     line-height: 22px;
@@ -8814,12 +8821,12 @@ h3.count {
 .sec-heading3 > h5 {
     float: left;
     width: 100%;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     color: #3b3b3b;
 }
 .sec-heading3 > h1 {
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 22px;
     color: #3b3b3b;
 }
@@ -8857,7 +8864,7 @@ h3.count {
 .sponsor-desc > p {
     color: #777777;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 26px;
     margin-bottom: 20px;
@@ -8865,7 +8872,7 @@ h3.count {
 }
 .sponsor-desc > a {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     padding: 5px 10px;
     color: #FFF;
@@ -8951,7 +8958,7 @@ h3.count {
 .recent-news p {
     color: #818181;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     margin-bottom: 0;
     width: 100%;
@@ -9028,7 +9035,7 @@ h3.count {
     background-color: rgba(0,0,0,0.8);
 }
 .featured-details > h3 {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 15px;
     color: #474747;
     float: left;
@@ -9041,7 +9048,7 @@ h3.count {
     color: #474747;
 }
 .featured-details > p {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     color: #777;
     line-height: 26px;
@@ -9051,7 +9058,7 @@ h3.count {
 }
 .featured-details > a {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: 600;
 }
@@ -9062,7 +9069,7 @@ h3.count {
 #top-bar .header-social li {
     height: 30px;
     line-height: 30px;
-    margin: 0 3px;
+    margin: 0 5px;
     padding: 0;
     text-align: center;
     width: 30px;
@@ -9157,7 +9164,7 @@ header.header2 #menu-navigation li ul li a {
 }
 .header-btn {
     float: right;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     margin-top: 30px;
     padding: 10px 15px;
@@ -9199,7 +9206,7 @@ header.header2.stick .header-btn {
 .header-counter h3 {
     color: #555555;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin-top: 5px;
@@ -9208,7 +9215,7 @@ header.header2.stick .header-btn {
 .header-counter .event-count span{
     color: #888888;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     margin-bottom: 7px;
     width: 100%;
@@ -9270,7 +9277,7 @@ header.header3 {
     padding: 5px 20px;
     text-align: left;
     font-size: 12px;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .search-box.white:before {
     content: "\f002";
@@ -9413,7 +9420,7 @@ header.header3 #menu-navigation ul.mega-menu2 > li:hover > a{
     background: none;
 }
 #menu-navigation ul.mega-menu2 li a {
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     color: #666;
     text-transform: uppercase;
@@ -9432,7 +9439,7 @@ header.header3 #menu-navigation li ul li{
     right: 0;
     top: 10px;
     font-size: 12px;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -9441,7 +9448,7 @@ header.header3 #menu-navigation li ul li{
 }
 header.header3 #menu-navigation li ul li a {
     color: #666;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -9522,7 +9529,7 @@ header.header3.stick #menu-navigation > li > a {
     box-shadow: 0 0 13px #e9e9e9 inset;
 }
 .our-cause-detail > h3 {
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     color: #656565;
     text-transform: uppercase;
@@ -9534,7 +9541,7 @@ header.header3.stick #menu-navigation > li > a {
 .our-cause-detail > span {
     color: #857f7f;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-style: italic;
     font-weight: 500;
@@ -9552,7 +9559,7 @@ header.header3.stick #menu-navigation > li > a {
     margin-bottom: 10px;
 }
 .our-cause-detail > i {
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     color: #50504f;
     font-style: normal;
@@ -9568,7 +9575,7 @@ header.header3.stick #menu-navigation > li > a {
     padding: 7px 15px;
     font-size: 11px;
     color: #FFF;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     display: inline-block;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -9655,7 +9662,7 @@ header.header3.stick #menu-navigation > li > a {
 .fancy-cause-intro > i {
     color: #857f7f;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 16px;
     margin-bottom: 10px;
@@ -9664,7 +9671,7 @@ header.header3.stick #menu-navigation > li > a {
 .fancy-cause-intro > h3 {
     color: #656565;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 15px;
     font-weight: 600;
     width: 100%;
@@ -9672,7 +9679,7 @@ header.header3.stick #menu-navigation > li > a {
 .fancy-cause-intro > span {
     background: none repeat scroll 0 0 #fff;
     color: #50504f;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     padding: 12px 15px;
     position: absolute;
@@ -9739,7 +9746,7 @@ header.header3.stick #menu-navigation > li > a {
 .fancy-cause-hover > span {
     color: #50504f;
     display: table;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     margin: 0 auto 20px;
 }
@@ -9752,7 +9759,7 @@ header.header3.stick #menu-navigation > li > a {
     font-style: normal;
 }
 .fancy-cause-hover > span a {
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     color: #FFF;
     background: black;
@@ -9869,7 +9876,7 @@ header.header3.stick #menu-navigation > li > a {
     border-bottom: 1px solid #5d5d5d;
     color: #ffffff;
     display: inline-block;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 0.3px;
@@ -9881,7 +9888,7 @@ header.header3.stick #menu-navigation > li > a {
     border-bottom: 1px solid #5d5d5d;
     color: #ffffff;
     display: inline-block;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     letter-spacing: 5px;
     padding-bottom: 10px;
@@ -9896,7 +9903,7 @@ header.header3.stick #menu-navigation > li > a {
 .donation-appeal > p {
     color: #cdcdcd;
     display: inline-block;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 26px;
     margin: 0;
@@ -9905,7 +9912,7 @@ header.header3.stick #menu-navigation > li > a {
 .urgent-cause > a{
     color: #ffffff;
     display: inline-block;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     margin-top: 30px;
     padding: 13px 35px;
@@ -9944,7 +9951,7 @@ header.header3.stick #menu-navigation > li > a {
 }
 .sec-heading4 h2 {
     display: inline-block;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -9952,7 +9959,7 @@ header.header3.stick #menu-navigation > li > a {
 .sec-heading4 > p {
     color: #999999;
     display: table;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     margin-bottom: 0;
     margin-left: auto;
@@ -9993,7 +10000,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #4b4b4b;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -10009,7 +10016,7 @@ header.header3.stick #menu-navigation > li > a {
 .wide-project-detail > h3 {
     float: left;
     width: 100%;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -10018,10 +10025,12 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #888888;
-    font-family: open sans;
-    font-size: 13px;
-    line-height: 26px;
-    margin: 0 0 30px ;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    letter-spacing: 0.9px;
+    word-spacing: 1px;
+    margin: 0 0 15px ;
 }
 .wide-project-img {
     float: left;
@@ -10035,7 +10044,7 @@ header.header3.stick #menu-navigation > li > a {
 }
 .money-spent > h5 {
     color: #7c7c7c;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 30px;
     line-height: 20px;
     margin-bottom: 5px;
@@ -10048,14 +10057,14 @@ header.header3.stick #menu-navigation > li > a {
 .money-spent > span {
     color: #929292;
     float: right;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
 }
 .project-contact {
     border-left: 1px dotted #969696;
     color: #929292;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-style: italic;
     margin-left: 30px;
@@ -10166,7 +10175,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #666666;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.4px;
@@ -10183,7 +10192,7 @@ header.header3.stick #menu-navigation > li > a {
 .charity-cause-detail > p {
     color: #888888;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -10216,7 +10225,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #666666;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     font-weight: 200;
     margin-top: 10px;
@@ -10230,7 +10239,7 @@ header.header3.stick #menu-navigation > li > a {
 .cause-location {
     float: left;
     width: 100%;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     padding:14px 30px;
     text-align: center;
@@ -10279,7 +10288,7 @@ header.header3.stick #menu-navigation > li > a {
 .urgent-cause > h3 {
     float: left;
     width: 100%;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 26px;
     color: #FFF;
 }
@@ -10292,7 +10301,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #f0eaea;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     margin:25px 0 30px;
 }
@@ -10323,7 +10332,7 @@ header.header3.stick #menu-navigation > li > a {
 .urgent-progress > span, .urgent-progress > i {
     color: #ffffff;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     font-weight: 300;
 }
@@ -10384,7 +10393,7 @@ header.header3.stick #menu-navigation > li > a {
 .simple-parallax > h3 {
     color: #ffffff;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 45px;
     font-weight: unset;
     margin-bottom: 20px;
@@ -10393,7 +10402,7 @@ header.header3.stick #menu-navigation > li > a {
 .simple-parallax > p {
     color: #dedddd;
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
     line-height: 30px;
     width: 100%;
@@ -10402,7 +10411,7 @@ header.header3.stick #menu-navigation > li > a {
     display: inline-block;
     position: relative;
     color: #ffffff;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     font-weight: 600;
     padding: 12px 30px;
@@ -10450,7 +10459,7 @@ header.header3.stick #menu-navigation > li > a {
 .abt-upcoming-event > h3 {
     color: #ffffff;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 8px;
@@ -10463,7 +10472,7 @@ header.header3.stick #menu-navigation > li > a {
 }
 .abt-upcoming-event > ul li {
     float: left;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     margin-right: 20px;
 }
@@ -10480,13 +10489,13 @@ header.header3.stick #menu-navigation > li > a {
 .upcoming-counter .countdown li p {
     font-size: 14px;
     margin-bottom: 10px;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     margin-top: 0;
 }
 .upcoming-counter .countdown li span {
     color: #FFF;
     font-size: 20px;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .upcoming-bar .countdown li:before {
     background: #ffffff none repeat scroll 0 0;
@@ -10543,7 +10552,7 @@ header.header3.stick #menu-navigation > li > a {
 .charity-event-img > a {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
     color: #ffffff;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     height: 40px;
     padding: 10px 20px;
@@ -10574,7 +10583,7 @@ header.header3.stick #menu-navigation > li > a {
 .charity-event-detail > i {
     color: #929292;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 10px;
@@ -10588,7 +10597,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #666666;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -10604,7 +10613,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #969595;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 11px;
     margin-bottom: 20px;
 }
@@ -10612,7 +10621,7 @@ header.header3.stick #menu-navigation > li > a {
     float: left;
     width: 100%;
     color: #888888;
-    font-family: open sans;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 13px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -11084,7 +11093,7 @@ footer.light-footer .contact-details li p{color: #737373}
 .responsive-menu > ul li {
     color: #fff;
     float: left;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     margin-bottom: 2px;
     position: relative;
@@ -11156,7 +11165,7 @@ a:focus
 }
 .twitter-timeline {
     font-size: 13px;
-    font-family: roboto;
+    font-family: 'Didact Gothic', sans-serif;
     color: #f9f9f9;
 }
 /*===== perfect-scrollbar v0.6.7 =====*/
@@ -12532,7 +12541,7 @@ input:focus {outline: none;}
   letter-spacing: 8px;
   text-transform: capitalize;
   color: #fff;
-  font-family:open sans;
+  font-family: 'Didact Gothic', sans-serif;
   padding:8px 0 5px 5px;
 }
 .text-meta > h3,
@@ -12543,7 +12552,7 @@ input:focus {outline: none;}
   font-weight:bold;
   letter-spacing: 0.6px;
   line-height:90px;
-  font-family:open sans;
+  font-family: 'Didact Gothic', sans-serif;
   -webkit-text-decoration: none;
   -moz-text-decoration: none;
   -ms-text-decoration: none;
@@ -12567,7 +12576,7 @@ input:focus {outline: none;}
 	margin:0 auto;
 	max-width:90%;
 	font-size:17px;
-	font-family:open sans;
+	font-family: 'Didact Gothic', sans-serif;
 	margin-top:30px;
 	line-height:34px;
 }

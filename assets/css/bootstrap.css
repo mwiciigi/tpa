@@ -280,10 +280,12 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Didact Gothic', sans-serif;
   font-size: 14px;
-  line-height: 1.428571429;
-  color: #333333;
+  line-height: 1.528571429;
+  color: #6f7074;
+  letter-spacing: 0.9px;
+  word-spacing: 1px;
   background-color: #ffffff;
 }
 
@@ -608,7 +610,7 @@ abbr.initialism {
 }
 
 blockquote {
-    background: none repeat scroll 0 0 #FCFCFB;
+    background: none repeat scroll 0 0 #f5f5ef;
     border-radius: 4px 4px 4px 4px;
     color: #707070;
     float: left;

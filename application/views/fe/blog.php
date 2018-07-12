@@ -9,8 +9,8 @@
 		</div><!-- Page Title -->
 		<div class="row">
 			<div class="left-content col-md-9">
+			<?php foreach ($posts as $row):?>
 				<div class="blog-post">
-					<?php foreach ($posts as $row):?>
 					<h2><a href="single-post-image.html" title=""><?php echo $row->blog_title;?></a></h2>
 					<a class="blog-post-img" href="single-post-image.html" title=""><img src="<?php echo base_url();?>uploads/<?php echo $row->blog_image;?>" alt="" /></a>
 					<div class="blog-post-details">
@@ -29,9 +29,9 @@
 							<p><?php echo word_limiter($row->blog_content, 50);?><br/><strong><span>Read More</span></strong></p>
 						</div>
 					</div>
-				<?php endforeach;?>
-
 				</div><!-- Blog Post With Image -->
+				<hr/><hr/>
+			<?php endforeach;?>
 
 				<div class="pagination-area">
 					<ul class="pagination">
