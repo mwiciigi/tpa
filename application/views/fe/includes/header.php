@@ -23,7 +23,7 @@
 <link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/pink.css" title="pink" />
 <link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/red.css" title="red" />
 
-
+<script src="<?php echo base_url();?>assets/js/myscript.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/js/jquery-2.2.2.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/js/perfect-scrollbar.jquery.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/js/perfect-scrollbar.js" type="text/javascript"></script>
