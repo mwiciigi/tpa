@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>TPA</title>
@@ -116,8 +115,9 @@ jQuery("#layerslider").layerSlider({
 });
 </script>
 <script type="text/javascript">
-			var baseDir = '<?php echo base_url(); ?>';
-		</script>
+	var baseDir = '<?php echo base_url(); ?>';
+</script>
+
 </head>
 <body>
 <div class="theme-layout">
