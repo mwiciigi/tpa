@@ -64,8 +64,6 @@ class Home extends CI_Controller {
             }
 
             echo json_encode($resp);
-            }
-
   if ($this->form_validation->run() == FALSE) {
 				$query = $this->tpa->save_comment($fullname,$email,$message);
    	$this->load->view('fe/home');

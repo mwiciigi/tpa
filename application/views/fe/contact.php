@@ -45,17 +45,24 @@
 
           <form class="custom-form" role="form" name="contactform" id="contactform" method="post" onsubmit="return save_comment;" enctype="multipart/form-data">
 					<!-- <form method="post"  action="home/comment" name="contactform" id="contactform"> -->
+						<div class="alert alert-danger block-inner" style="display: none;" id="div_mycomment_error">
+	            <button type="button" class="close" data-dismiss="alert">×</button>Error
+	          </div>
+						<!--Success Message div-->
+						<div class="alert alert-success block-inner" style="display: none;" id="div_mycomment_success">
+							<button type="button" class="close" data-dismiss="alert">×</button>    Success
+						</div>
 						<label for="fullname" accesskey="U">Full name <span>*</span></label>
 						<input name="fullname" class="form-control input-field" type="text" id="fullname" value="" />
 						<label for="email" accesskey="E">Email Address <span>*</span></label>
 
-						<input name="email" class="form-control input-field" type="text" id="email" value="" />
+						<input name="email" class="form-control input-field" type="email" id="email" value="" />
 						<label for="comments" accesskey="C">Message <span>*</span></label>
 						<textarea name="name" id="message" rows="7" class="form-control input-field"></textarea>
 						<div class="g-recaptcha" data-sitekey="6LelmzAUAAAAAHBE2SJeRMfnzYVxH9RMGQstUij2"></div>
 						<input type="submit" class="form-button submit" id="submit" value="SEND MESSAGE" />
 					</form>
-""				</div>
+				</div>
 			</div>	<!-- Message Form -->
 		</div>
 	</div>
