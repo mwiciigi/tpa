@@ -13,7 +13,8 @@
 				<div class="col-md-4">
 					<div class="story">
 
-						<div class="story-img">
+						<a href="<?php echo base_url();?>home/readproject/<?php echo $row->project_id;?>">
+							<div class="story-img">
 							<img src="<?php echo base_url();?>assets/images/<?php echo $row->project_image;?>" alt="" />
 <!--kyalo
 							<h5><?php echo $row->project_title;?></h5>
@@ -23,7 +24,7 @@
 						<h6><i>Kes</i><?php echo $row->moneyspent;?><span>Money Spent</span></h6>
 						<span><i class="icon-map-marker"></i><?php echo $row->project_location;?></span>-->
 
-							</div>
+					</div></a>
 							<h5 style="padding-bottom:10px"><a href="<?php echo base_url();?>home/readproject/<?php echo $row->project_id;?>"><?php echo $row->project_title;?></a></h5>
 
 						<p><?php echo character_limiter($row->project_article, 200);?><span style="color: #a561d6;font-size:15px">Read More</span></p>
