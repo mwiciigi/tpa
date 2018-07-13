@@ -60,8 +60,8 @@
 					<span class="category">In <a href="#" title="">Home</a>, <a href="#" title="">Blog</a>, <a href="#" title="">Charity</a></span><!-- Categories -->
 					<h1><?php echo $row->project_title;?></h1>
 					<ul class="post-meta">
-						<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->project_startdate;?></span><?php echo $row->project_starttime;?></a></li>
-						<li><a href="" title=""><i></i>To 	<span><?php echo $row->project_enddate;?></span><?php echo $row->project_endtime;?></a></li>
+						<li><a href="" title=""><i class="icon-calendar-empty"></i><span><?php echo $row->project_startdate;?></span>&emsp;<?php echo $row->project_starttime;?></a></li>
+						<li><a href="" title=""><i></i>To 	<span><?php echo $row->project_enddate;?></span>&emsp;<?php echo $row->project_endtime;?></a></li>
 						<li><a href="" title=""><i class="icon-user"></i><?php echo $row->project_author;?></a></li>
 						<li><a href="" title=""><i class="icon-map-marker"></i><?php echo $row->project_location;?></a></li>
 						<li>

@@ -16,7 +16,7 @@
 						<a href="<?php echo base_url();?>home/readproject/<?php echo $row->project_id;?>">
 							<div class="story-img">
 							<img src="<?php echo base_url();?>assets/images/<?php echo $row->project_image;?>" alt="" />
-<!--kyalo
+<!--
 							<h5><?php echo $row->project_title;?></h5>
 							<a href="<?php echo base_url();?>project" title=""><span></span></a>
 						</div>

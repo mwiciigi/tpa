@@ -77,7 +77,7 @@
 			<div class="col-md-3">
 				<div class="newsletter">
 					<h4><strong>SIGNUP</strong> NEWSLETTER</h4>
-					<p>Quisque volutpat mattis eros. Nullamma lesuada erat ut turpis. Suspendisse.</p>
+					<p>Submit your E-mail to receive regular News.</p>
 					<input class="form-control" type="email" placeholder="Email" />
 				</div>
 				<ul class="social-bar">
