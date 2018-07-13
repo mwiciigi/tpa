@@ -1,8 +1,6 @@
-
-
 function save_comment(){
 
-	//alert('hehe i am here');
+	alert('hehe i am here');
 
 		$div_mycomment_error = $("#div_mycomment_error");
 		$div_mycomment_success = $("#div_mycomment_success");

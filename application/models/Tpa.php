@@ -34,6 +34,7 @@
       $query = $this->db->get('vision');
       return $query->result();
    }
+   
    function get_mission(){
      $this->db->order_by("id","desc");
      $query = $this->db->get('mission');
@@ -48,22 +49,5 @@
    $this->db->order_by("id","desc");
    $query = $this->db->get('objectives');
    return $query->result();
-}
-function get_keepgirlinschool(){
-  $this->db->order_by("id","desc");
-  $query = $this->db->get('keepgirlinschool');
-  return $query->result();
-}
-function save_comment($data){
-       $err = '';
-       $insert = $this->db->insert('comment', $data);
-       // $insert_id = $this->db->insert_id();
-       if ($insert){
-       $arr_return = array('res' => true,'dt' => 'Comment Saved Successfully');
-       }else{
-       $arr_return = array('res' => false,'dt' => 'Comment Failed to Save');
-
-       }
-       return $arr_return;
 }
       }

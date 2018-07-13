@@ -102,6 +102,7 @@ $(window).load(function(){
 <!-- LayerSlider script files -->
 <script src="<?php echo base_url();?>assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
 <script>
 $(document).ready(function(){
 jQuery("#layerslider").layerSlider({
@@ -114,6 +115,9 @@ jQuery("#layerslider").layerSlider({
 });
 });
 </script>
+<script type="text/javascript">
+			var baseDir = '<?php echo base_url(); ?>';
+		</script>
 </head>
 <body>
 <div class="theme-layout">
