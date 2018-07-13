@@ -130,61 +130,29 @@
 			<div class="col-md-9">
 				<div class="sec-heading4">
 					<h2>Educate One <span>Girl</span></h2>
-					<p>Educate one girl against FGM </p>
+					<p>Protect one girl against FGM </p>
 				</div>
 				<div class="charity-causes">
 					<div class="row">
+					<?php foreach ($keepgirlinschool as $row):?>
 						<div class="col-md-4">
 							<div class="charity-cause">
-								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/charity-causes1.jpg" alt="" /></div>
+								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/<?php echo $row->keepimage;?>" alt="" /></div>
 								<div class="charity-cause-detail">
-									<h3><a href="#" title=""> Keep a qirl in school</a></h3>
-									<p>Interdum et malesuada fames acnte primis in faucibus ullam ante.</p>
+									<h3><a href="#" title=""><?php echo $row->keeptitle;?></a></h3>
+									<p><?php echo word_limiter($row->keeparticle,10);?></p>
 									<div class="progress progress-striped active">
 										<div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 84%">
 									</div>
 									</div>
-									<span>Needed Donation <i>Kes 20,000</i></span>
+									<span>Needed Donation <i><?php echo $row->keepamount;?></i></span>
 								</div>
 								<div class="cause-location">
-									<p>In <span>Nakuru</span></p>
+									<p>In <span><?php echo $row->keeplocation;?></span></p>
 								</div>
 							</div><!-- Charity Cause -->
 						</div>
-						<div class="col-md-4">
-							<div class="charity-cause">
-								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/charity-causes2.jpg" alt="" /></div>
-								<div class="charity-cause-detail">
-									<h3><a href="#" title="">Rescue Married Off Girls</a></h3>
-									<p>Interdum et malesuada fames acnte primis in faucibus ullam ante.</p>
-									<div class="progress progress-striped active">
-									  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 37%">
-									  </div>
-									</div>
-									<span>Needed Donation <i>Kes 143,000</i></span>
-								</div>
-								<div class="cause-location">
-									<p>In <span>Kisumu</span></p>
-								</div>
-							</div><!-- Charity Cause -->
-						</div>
-						<div class="col-md-4">
-							<div class="charity-cause">
-								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/charity-causes3.jpg" alt="" /></div>
-								<div class="charity-cause-detail">
-									<h3><a href="#" title="">Our Girls are our Future</a></h3>
-									<p>Interdum et malesuada fames acnte primis in faucibus ullam ante.</p>
-									<div class="progress progress-striped active">
-									  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 67%">
-									  </div>
-									</div>
-									<span>Needed Donation <i>Kes 24,500</i></span>
-								</div>
-								<div class="cause-location">
-									<p>In <span>Mombasa</span></p>
-								</div>
-							</div><!-- Charity Cause -->
-						</div>
+					<?php endforeach; ?>
 					</div>
 				</div><!-- Charity Causes -->
 			</div>
@@ -293,7 +261,7 @@
 										<a href="#" title="">Read More</a>
 									</div>
 									<div class="charity-event-detail">
-										<i><strong><?php echo $row->blog_date;?></strong><?php echo $row->blog_time;?></i>
+										<i><strong><?php echo $row->blog_date;?></strong>&emsp;<?php echo $row->blog_time;?></i>
 										<h3><a href="#" title=""><?php echo $row->blog_title;?></a></h3>
 										<span><i class="icon-map-marker"></i> <?php echo $row->blog_location;?></span>
 										<p><?php echo word_limiter($row->blog_content,10);?></p>

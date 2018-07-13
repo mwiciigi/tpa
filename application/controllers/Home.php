@@ -10,6 +10,7 @@ class Home extends CI_Controller {
 	public function index(){
 		$data['main_content'] = 'fe/home';
 		$data['posts'] = $this->tpa->get_homeblog();
+		$data['keepgirlinschool'] = $this->tpa->get_keepgirlinschool();
 		$this->load->view('fe/includes/template',$data);
 	}
 	public function about(){
@@ -23,7 +24,6 @@ class Home extends CI_Controller {
 
 	public function readproject($project_id){
 			$data['main_content'] = 'fe/project';
-			$data['project'] = $this->tpa->get_projects();
 			$data['projectlist'] = $this->tpa->get_projectlist();
 			$data['project'] = $this->tpa->get_projects($project_id);
 			$this->load->view('fe/includes/template',$data);
@@ -48,4 +48,31 @@ class Home extends CI_Controller {
 		$data['main_content'] = 'fe/contact';
 		$this->load->view('fe/includes/template',$data);
 	}
+	function comment(){
+
+		$data = array(
+            'fullname' => $this->input->post('fullname'),
+            'email' => $this->input->post('email'),
+            'comment' => $this->input->post('comment')
+            );
+
+            $q = $this->tpa->save_comment($data);
+            if ($q['res'] == true){
+                $resp = array('status' => 'SUCCESS','message' => $q['dt']);
+            }else{
+                $resp = array('status' => 'ERR','message' => $q['dt']);
+            }
+
+            echo json_encode($resp);
+            }
+
+  if ($this->form_validation->run() == FALSE) {
+				$query = $this->tpa->save_comment($fullname,$email,$message);
+   	$this->load->view('fe/home');
+		$this->load->view('fe/includes/template');
+  }else{
+		$this->load->view('fe/home');
+		$this->load->view('fe/includes/template');
+  }
+ }
 }

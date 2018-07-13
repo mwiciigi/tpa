@@ -42,18 +42,20 @@
 					<h3 class="sub-head">CONTACT US BY MESSAGE</h3>
 					<p>Kindly fill the fields below and submit. <span>*</span></p>
 					<div id="message"></div>
-					<form method="post"  action="contact.php" name="contactform" id="contactform">
-						<label for="name" accesskey="U">Full name <span>*</span></label>
-						<input name="name" class="form-control input-field" type="text" id="name" size="30" value="" />
+
+          <form class="custom-form" role="form" name="contactform" id="contactform" method="post" onsubmit="return save_comment;" enctype="multipart/form-data">
+					<!-- <form method="post"  action="home/comment" name="contactform" id="contactform"> -->
+						<label for="fullname" accesskey="U">Full name <span>*</span></label>
+						<input name="fullname" class="form-control input-field" type="text" id="fullname" value="" />
 						<label for="email" accesskey="E">Email Address <span>*</span></label>
 
-						<input name="email" class="form-control input-field" type="text" id="email" size="30" value="" />
+						<input name="email" class="form-control input-field" type="text" id="email" value="" />
 						<label for="comments" accesskey="C">Message <span>*</span></label>
-						<textarea name="comments" id="comments" rows="7" class="form-control input-field"></textarea>
+						<textarea name="name" id="message" rows="7" class="form-control input-field"></textarea>
 						<div class="g-recaptcha" data-sitekey="6LelmzAUAAAAAHBE2SJeRMfnzYVxH9RMGQstUij2"></div>
 						<input type="submit" class="form-button submit" id="submit" value="SEND MESSAGE" />
 					</form>
-				</div>
+""				</div>
 			</div>	<!-- Message Form -->
 		</div>
 	</div>
