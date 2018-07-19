@@ -43,7 +43,7 @@
 					<p>Kindly fill the fields below and submit. <span>*</span></p>
 					<div id="message"></div>
 
-          <form class="custom-form" role="form" name="contactform" id="contactform" method="post" onsubmit="return save_comment;" enctype="multipart/form-data">
+          <form class="custom-form" role="form" name="contactform" id="contactform" method="post" onsubmit="return save_comment();" enctype="multipart/form-data">
 					<!-- <form method="post"  action="home/comment" name="contactform" id="contactform"> -->
 						<label for="fullname" accesskey="U">Full name <span>*</span></label>
 						<input name="fullname" class="form-control input-field" type="text" id="fullname" value="" />
@@ -51,7 +51,7 @@
 
 						<input name="email" class="form-control input-field" type="text" id="email" value="" />
 						<label for="comments" accesskey="C">Message <span>*</span></label>
-						<textarea name="name" id="message" rows="7" class="form-control input-field"></textarea>
+						<textarea name="comment" id="comment" rows="7" class="form-control input-field"></textarea>
 						<div class="g-recaptcha" data-sitekey="6LelmzAUAAAAAHBE2SJeRMfnzYVxH9RMGQstUij2"></div>
 						<input type="submit" class="form-button submit" id="submit" value="SEND MESSAGE" />
 					</form>

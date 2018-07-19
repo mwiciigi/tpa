@@ -49,7 +49,6 @@ class Home extends CI_Controller {
 		$this->load->view('fe/includes/template',$data);
 	}
 	function comment(){
-
 		$data = array(
             'fullname' => $this->input->post('fullname'),
             'email' => $this->input->post('email'),
@@ -64,15 +63,7 @@ class Home extends CI_Controller {
             }
 
             echo json_encode($resp);
-            }
 
-  if ($this->form_validation->run() == FALSE) {
-				$query = $this->tpa->save_comment($fullname,$email,$message);
-   	$this->load->view('fe/home');
-		$this->load->view('fe/includes/template');
-  }else{
-		$this->load->view('fe/home');
-		$this->load->view('fe/includes/template');
-  }
+
  }
 }
