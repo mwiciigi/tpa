@@ -6126,7 +6126,6 @@ select{
 .sidebar-list > li {
     float:left;
     margin-bottom:1px;
-    width:100%;
 }
 .sidebar-list li a {
     float:left;

@@ -89,8 +89,8 @@
 			<?php foreach ($projectlist as $row):?>
 				<div class="sidebar-widget">
 					<ul class="sidebar-list">
-						<li><a href="#" title=""><?php echo $row->project_title;?></a></li>
-						<p><?php echo $row->project_startdate;?></p>
+						<li><a href="#" title=""><?php echo $row->project_title;?></a> </li>
+						<p style="float:right;"><?php echo $row->project_startdate;?></p>
 					</ul>
 				</div><!-- Category List -->
     <?php endforeach; ?>

@@ -359,33 +359,6 @@
 					</div><!-- Popular Posts -->
 					<div class="sidebar-widget">
 						<div class="sidebar-title">
-							<h4>Meta <span>Data</span></h4>
-						</div>
-						<ul class="sidebar-list">
-							<li><a href="#" title="">Blog</a></li>
-							<li><a href="#" title="">Creative</a></li>
-							<li><a href="#" title="">Powerful</a></li>
-							<li><a href="#" title="">Clean</a></li>
-						</ul>
-					</div><!-- Meta Data -->
-					<div class="sidebar-widget">
-						<div class="sidebar-title">
-							<h4>Tags <span>Clouds</span></h4>
-						</div>
-						<div class="cloud-tags">
-							<a href="#" title="">Uncategorized</a>
-							<a href="#" title="">Susipit</a>
-							<a href="#" title="">Diam</a>
-							<a href="#" title="">Diam</a>
-							<a href="#" title="">Susipit</a>
-							<a href="#" title="">Diam</a>
-							<a href="#" title="">Susipit</a>
-							<a href="#" title="">Uncategorized</a>
-							<a href="#" title="">Susipit</a>
-						</div>
-					</div><!-- Tag Clouds -->
-					<div class="sidebar-widget">
-						<div class="sidebar-title">
 							<h4>Category <span>List</span></h4>
 						</div>
 						<ul class="sidebar-list">

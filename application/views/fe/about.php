@@ -116,6 +116,12 @@
 
 			<div class="sidebar col-md-3 pull-right">
 				<div class="sidebar-widget">
+					<div class="sidebar-search">
+						<input class="search" type="text" placeholder="Enter Search Item" />
+						<input class="search-button" type="submit" value="" />
+					</div>
+				</div><!-- Sidebar Search -->
+				<div class="sidebar-widget">
 					<div class="sidebar-title">
 						<h4>Popular <span>Posts</span></h4>
 					</div>
@@ -136,22 +142,19 @@
 				</div><!-- Popular Posts -->
 				<div class="sidebar-widget">
 					<div class="sidebar-title">
-						<h4>Tags <span>Clouds</span></h4>
+						<h4>Category <span>List</span></h4>
 					</div>
-					<div class="cloud-tags">
-						<a href="#" title="">Uncategorized</a>
-						<a href="#" title="">Susipit</a>
-						<a href="#" title="">Diam</a>
-						<a href="#" title="">Diam</a>
-						<a href="#" title="">Susipit</a>
-						<a href="#" title="">Diam</a>
-						<a href="#" title="">Susipit</a>
-						<a href="#" title="">Uncategorized</a>
-						<a href="#" title="">Susipit</a>
-					</div>
-				</div><!-- Tags Clouds -->
+					<ul class="sidebar-list">
+						<li><a href="#" title="">Blog (6)</a></li>
+						<li><a href="#" title="">Colourful (5)</a></li>
+						<li><a href="#" title="">Feature (2)</a></li>
+						<li><a href="#" title="">Nature (7)</a></li>
+						<li><a href="#" title="">Scenery(3)</a></li>
+						<li><a href="#" title="">Uncategorized(1)</a></li>
+					</ul>
+				</div><!-- Category List -->
 
-			</div>
+			</div><!-- Sidebar -->
 		</div>
 	</div>
 </section>
