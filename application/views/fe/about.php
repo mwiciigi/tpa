@@ -28,7 +28,7 @@
 								<div class="col-md-8">
 									<div class="search-detail">
 										<h3>Teen Pregnancy Awareness<span> (TPA)</span></h3>
-										<p><?php echo $row->aboutusarticle;?></p>
+										<p><?php echo $row->aboutus_article;?></p>
 									</div>
 								</div>
 							</div>

@@ -118,8 +118,9 @@ jQuery("#layerslider").layerSlider({
            </script>
 </head>
 <body>
-<div class="theme-layout">
-<div id="top-bar" class="modern">
+	<body class="bg-body1" style="">
+	<div class="theme-layout boxed">
+	<div id="top-bar" class="modern">
 	<div class="container">
 		<ul>
 			<li>
